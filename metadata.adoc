@@ -1,4 +1,4 @@
-Mahad Ahmed <ahmem73@mcmaster.ca@mcmaster.ca>; Author 2 <a2@mcmaster.ca>; Author 3 <a3@mcmaster.ca>
+Mahad Ahmed <ahmem73@mcmaster.ca>; Prerna Prabhu <prabhp3@mcmaster.ca>; Author 3 <a3@mcmaster.ca>
 :project-title: Our Awesome Project
 :course-number: SE/CS 3RA3
 :course-term: Fall
