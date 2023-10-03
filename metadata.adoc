@@ -1,7 +1,7 @@
 Mahad Ahmed <ahmem73@mcmaster.ca>; Prerna Prabhu <prabhp3@mcmaster.ca>; Author 3 <a3@mcmaster.ca>
-:project-title: Our Awesome Project
+:project-title: ACME RUN: Requirements Standard Plan
 :course-number: SE/CS 3RA3
 :course-term: Fall
 :revnumber: 1
-:milestone: 4
+:milestone: 1
 :env-draft:
