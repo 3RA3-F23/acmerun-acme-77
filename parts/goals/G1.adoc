@@ -5,5 +5,10 @@ ifdef::env-draft[]
 TIP: _High-level view of the project: organizational context and reason for building a system. It explains why the project is needed, recalls the business context, and presents the general business objectives._  <<BM22>>
 endif::[]
 
-{emptysec}
+In recent years, the fitness industry has seen a massive increase in its population. 
+Unfortantely with popularity also comes an influx of prices, 
+for many people the cost of gym subscriptions is too high and the access to free personalized training programs is scarce. 
+For people wanting to stay fit, healthy and active, 
+_HammerCorp_ presents a revolutionary mobile application, 
+_ACME RUN_ which aims to provide everyone an entertaining and free resource to reach their fitness goals. 
 
