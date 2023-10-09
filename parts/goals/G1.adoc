@@ -9,6 +9,8 @@ In recent years, the fitness industry has seen a massive increase in its populat
 Unfortantely with popularity also comes an influx of prices, 
 for many people the cost of gym subscriptions is too high and the access to free personalized training programs is scarce. 
 For people wanting to stay fit, healthy and active, 
-_HammerCorp_ presents a revolutionary mobile application, 
-_ACME RUN_ which aims to provide everyone an entertaining and free resource to reach their fitness goals. 
+_HammerCorp_ presents a revolutionary mobile application, _ACME RUN_, 
+which aims to provide everyone an entertaining and free resource to reach their fitness goals. 
+_ACME RUN_ is set to launch on McMaster Campus and its surrounding areas where its been selected as a pilot partner. If the project is a success,
+_HammerCorp_ plans to expand its deployment across North America and beyond. 
 
