@@ -8,5 +8,5 @@ endif::[]
 Some invariants of this system can be defined as follows:
 * ACME Run will operate only within the predefined geological zones and trails and partnering shops or areas
 * The trails and specified predefined zones must be maintained and safe for users to use and updated in real time
-* The calculation of a users maximum heart rate is based on the age of the user and the previously saved/adapted data of a users heart rate
+* If the user's HRM is connected, the calculation of a users maximum heart rate is based on the age of the user and the previously saved/adapted data of a users heart rate
 
