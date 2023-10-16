@@ -5,4 +5,54 @@ ifdef::env-draft[]
 TIP: _Groups of people who can affect the project or be affected by it, and other places to consider for information about the project and system. It lists stakeholders and other requirements sources. It should define stakeholders as categories of people, not individuals, even if such individuals are known at the time of writing. The main goal of chapter <<g7>> is to avoid forgetting any category of people whose input is relevant to the project. It also lists documents and other information that the project, aside from soliciting input from stakeholders, can consult for requirements information._  <<BM22>>
 endif::[]
 
-{emptysec}
+Direct Stakeholders:
+
+- Client : HammerCorp
+The app is being developed to meet the requests of the client, HammerCorp. As the key client, their interest is to deploy an affordable and accessible opportunity to staying active in the community.
+
+Sandra, Manager at HammerCorp:
+
+Sandra is a 40 year old manager at HammerCorp and is familiar with the technology of existing fitness apps. She has been hearing about the rising costs of gym memberships and want to be part of an affordable program that increases access to fitness facilities. She is interested in providing the citizens of Hamilton with access to such opportunities at a low cost.
+
+- Runners in Hamilton
+Runners are the primary users of this product. They will be using the app to find nearby trails and would use it as an affordable tool to stay active.
+
+Jimmy is a 22 year old graduate from McMaster. He enjoys attending the gym, but has found it difficult to pay the monthly membership cost. He is also an avid runner, and spends lots of time on the treadmills. Having an app that shows him nearby trails within his community would allow him to meet his budget goals while staying active.
+
+- McMaster University as the Local Partner
+McMaster will act as the pilot partner, which will enable the app to cater to the available trails near campus. McMaster will need to know estimates of how many runners to anticipate, and the trails that will be allocated. 
+
+David, Manager of The Financial Office at McMaster. David is a 70 year old with limited experience with fitness apps. However, he is very interested in providing students and the nearby McMaster community with the knowledge of nearby trails that can be used to remain active throughout the year. He wants to support the initiative but is also concerned about the financial maintenance required to ensure the success of deploying the app.
+
+- Local Authorities
+Local authorities are responsible for maintaining the trails and ensuring the safety of the users. They would need access to the data surrounding the busiest trails, operational hours, and locations.
+
+Sam, City Planner in the municipality of Hamilton. Sam is a new employee and is interested in promoting more outdoor activities within the city. Sam also wants to support local businesses and encourage the community to check them out. Sam will help in mapping out the highly recommended trails and listing out the nearby businesses.
+
+- Investors
+The investors' support is critical to the financial feasibility of the product. They are interested in funding a project that will meet the wants and needs of the community within a feasible budget.
+
+Erica, CEO of a major athletic wear company with headquarters in Hamilton. Erica is interested in funding initiatives that encourage people to take advantage of affordable athletic facilities. Erica also wants to support the launch of the app. She is interested in providing the necessary funds while also getting her company's name some local attention.
+
+Indirect:
+
+- Personal Trainers 
+Personal trainers could utilize the app as an extension to their services in order to not lose their clients. They might be interested in charging for a running plan but not requesting further fees throughout the runner's program.
+
+
+- Local Shops 
+Local shops could partner to provide stops and act as a resting shelter for runners along the trails. They are interested in the opportunity to gain more traffic and potentially more customers.
+
+
+Requirement Sources:
+
+Market Research:
+To ensure the success of the app, the team must research available facilities that are considered competitors. Gathering information on the cost and locations of different gyms is necessary to understand what is presently available to the community.
+
+Regulatory and Legal Requirements:
+
+The team must gather information on the laws that must be abided by when listing trails. This could include the details of locations that cannot be along the marketed trails for potential trespassing issues.
+
+Accessibility Guidelines:
+
+The team must research the features that must be added to the app to ensure everyone can use it to meet their needs. This would ensure widespan accessibility for people to enjoy these trails given the increasing costs of fitness centers.
