@@ -6,10 +6,10 @@
 |===
 |Section | Version | Lead | Delivered | Reviewer | Approved 
 
-| **<<e1>>** |  |  |  |  |
+| **<<e1>>** | Milestone #1 | Everyone | 2023-10-15 | Everyone | 2023-10-15
 | **<<e2>>** |  |  |  |  |
 | **<<e3>>** |  |  |  |  |
 | **<<e4>>** |  |  |  |  |
-| **<<e5>>** |  |  |  |  |
-| **<<e6>>** |  |  |  |  |
+| **<<e5>>** | Milestone #1 | Mahad | 2023-10-12 | Prerna | 2023-10-15
+| **<<e6>>** | Milestone #1 | Prerna | 2023-10-15 | Luna | 2023-10-15
 |===
