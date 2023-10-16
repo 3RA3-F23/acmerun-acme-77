@@ -5,4 +5,8 @@ ifdef::env-draft[]
 TIP: _Current state of processes to be addressed by the project and the resulting system. It describes the current situation, upon which the system is expected to improve_  <<BM22>>
 endif::[]
 
-{emptysec}
+_ACME Run_ is designed to be a gamified running application for those seeking a free alternative to an expensive gym subscription. 
+Targeting a diverse set of people, from beginners to seasoned runners, 
+The app offers a wide variety of challenges and events to help keep runners stay motivated, even during quiet periods. it also features
+an HRM system that adjusts based on the runner's physical body response and which also adapts to their personal fitness objectives and goals. 
+This ensures an engaging and personalized fitness experience for everyone!
