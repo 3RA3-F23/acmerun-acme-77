@@ -6,4 +6,8 @@ TIP: _Clear and precise definitions of all the vocabulary specific to the applic
 endif::[]
 
 
-{emptysec}
+* Geofence: A virtual boundary or geographic area defined by GPS or RFID technology. Geofences are used for location-based services, such as triggering notifications or actions when a device enters or exits the defined area.
+* Heart Rate Monitor (HRM): A device designed to measure and track an individual's heart rate, often used in health and fitness applications to monitor physical activity and provide insights into cardiac health.
+* McMaster: A University located in Hamilton, Ontario selected as a pilot partner, where _Hammer Corp_ will launch AMCE RUN under the name MacRun as a pilot application.
+* Privacy Policy: A formal document or statement that outlines the collection, use, and protection of personal data and information belonging to users. It typically explains data handling procedures and user rights regarding privacy and data security.
+
