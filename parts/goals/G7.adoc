@@ -10,8 +10,6 @@ Direct Stakeholders:
 - Client : HammerCorp
 The app is being developed to meet the requests of the client, HammerCorp. As the key client, their interest is to deploy an affordable and accessible opportunity to staying active in the community.
 
-Sandra, Manager at HammerCorp:
-
 Sandra is a 40 year old manager at HammerCorp and is familiar with the technology of existing fitness apps. She has been hearing about the rising costs of gym memberships and want to be part of an affordable program that increases access to fitness facilities. She is interested in providing the citizens of Hamilton with access to such opportunities at a low cost.
 
 - Runners in Hamilton
