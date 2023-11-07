@@ -7,11 +7,11 @@ endif::[]
 
 The system relies on the following four software components:
 
-* **`User Profile Manager`**: The component in charge of managing user profiles, preferences and historical data. It provides services, like personalized fitness programs based on information such as fitness goals, age and heart rate recordings.
-* **`Geo-Fence and Trail Manager`**: The component in charge of exposing the defined geographical zones where the game is available. It collaborates with authorities and partners to create running trails. This component ensures that the trails are accurate and regularly updated.
-* **`Game Engine`**: The component in charge of managing the gamification elements, including enemies and options for escaping or fighting back. It forms the core of the *ACME RUN* system.
-* **`Badge and Challenge Manager`**: The component in charge of managing a users badges and challenge progression. It provides a user interface where users can view their fitness achievements keeping them engaged and motivated by offering incentives.
+* **`User Profile Manager`**: The component in charge of managing user profiles. It stores data such as user preferences and historical data. Using the data, it provides personalized fitness programs based on information such as age, fitness goals and heart rate information.
+* **`Geo-Fence & Trail Manager`**: The component in charge of exposing the defined geographical zones where the game is available. With the help of local authorities and partners it creates a defined geographical zone and a selection of running trails. The component ensures that these are regularly updated and complied with regulatory laws.
+* **`Game Engine`**: The component in charge of managing the in-game experience. This includes the visualization of enemies and providing users with options when confronting these enemies. The game engine also provides a service for the visualization of the selected running trail. It forms the core of the *ACME RUN* system.
+* **`Badge & Challenge Manager`**: The component in charge of managing a users badges and challenge progression. It provides users an interface where they can view their acquired badges and their progession towards various challenges. It also prompts users with upcoming events to motivate them to complete and earn more badges.
 
-In addition to these components, the system will interact with external components (see <<e2>> for details).
+In addition to these components, the system will interact with some external components (see <<e2>> for details).
 
-Users can utilize the *ACME RUN* platform through a mobile application. This app enables users to engage in fitness challenges monitor their progress and access personalized workout plans. Additionally there is an Admin Portal designed for staff members responsible for overseeing trail management and ensuring safety measures are in place.
+Users use **`ACME RUN`** (a mobile application) to interact with the system. The app lets users create profiles, add personal information (which is private and secured), select personal fitness programs that adhere to their goals, go on runs and view their acquired badges and challenges. Staff and administration can view the app through an **`Admin Portal`** where they can update geographical zones, useable trails, organize new events and create new badges and challenges. 
