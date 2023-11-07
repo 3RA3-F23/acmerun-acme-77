@@ -5,4 +5,13 @@ ifdef::env-draft[]
 TIP: _Overall structure expressed by the list of major software and, if applicable, hardware parts._  <<BM22>>
 endif::[]
 
-{emptysec}
+The system relies on the following four software components:
+
+* **`User Profile Manager`**: The component in charge of managing user profiles, preferences and historical data. It provides services, like personalized fitness programs based on information such as fitness goals, age and heart rate recordings.
+* **`Geo-Fence and Trail Manager`**: The component in charge of exposing the defined geographical zones where the game is available. It collaborates with authorities and partners to create running trails. This component ensures that the trails are accurate and regularly updated.
+* **`Game Engine`**: The component in charge of managing the gamification elements, including enemies and options for escaping or fighting back. It forms the core of the *ACME RUN* system.
+* **`Badge and Challenge Manager`**: The component in charge of managing a users badges and challenge progression. It provides a user interface where users can view their fitness achievements keeping them engaged and motivated by offering incentives.
+
+In addition to these components, the system will interact with external components (see <<e2>> for details).
+
+Users can utilize the *ACME RUN* platform through a mobile application. This app enables users to engage in fitness challenges monitor their progress and access personalized workout plans. Additionally there is an Admin Portal designed for staff members responsible for overseeing trail management and ensuring safety measures are in place.
