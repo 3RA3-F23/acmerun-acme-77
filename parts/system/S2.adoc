@@ -5,4 +5,71 @@ ifdef::env-draft[]
 TIP: _**This is the bulk of the System book, describing elements of functionality (behaviors)**. This chapter corresponds to the traditional view of requirements as defining "**what the system does**”. It is organized as one section, S.2.n, for each of the components identified in <<s1>>, describing the corresponding behaviors (functional and non-functional properties)._  <<BM22>>
 endif::[]
 
-{emptysec}
+==== (S.2.1) User Profile Manager
+===== Functional Requirements
+
+. [[F211]] **Sign-up service**: User Profile manager shall allow users the option to sign-up and create an account to gain access to their defined geographical running location. (F211)
+
+. [[F212]] **Preferences/User data**: User Profile manager shall allow users to add their personal information such as age and fitness goals and also record data like previous heart rate information. (F212)
+
+. [[F213]] **Personalized Fitness Programs**: User Profile manager shall allow users to pick and chose from a selection of personalized fitness programs; created uniquely for them based on their provided information. (F213)
+
+. [[F214]]  **User activity history**: User Profile manager shall allow users to log their previous runs, such as running distance and duration. (F214)
+
+===== Non-Functional Requirements
+
+. [[NF211]] **Accesssibility**: User Profile Manager shall provide users to select different languages they want the app to be in, to support the diverse community at McMaster (NF211)
+
+. [[NF212]] **Personal Data Privacy**: User Profile Manager shall ensure that users data is not accessible outside of the administrative management team. (NF212)
+
+==== (S.2.2) Geo-Fence & Trail Manager
+
+===== Functional Requirements
+
+. [[F221]] **Provide geographical zone**: Geo-Fence & Trail Manager shall provide users with access to the defined geographical zone so runners know where they need to be. (F221)
+
+. [[F222]] **Nearby trail recommendations**: Geo-Fence & Trail Manager shall provide users with a selection of trails in the geographical zone where users can start and stop their run. (F222)
+
+. [[F223]] **Update zones and trails**: Geo-Fence & Trail Manager shall provide an interface to staff to update the gepgraphical zones or trails by adding or removing them. (F223)
+
+. [[F224]] **Select trail**: Geo-Fence & Trail Manager shall allow users to select the nearby trail from the given selections that they would like to run on. (F224)
+
+===== Non-Functional Requirements
+
+. [[NF221]] **Compliance and regulations**: Geo-Fence & Trail Manager shall ensure to follow laws and regulation when selecting geographical zones and trails by partnering with local authorities. (NF221)
+
+. [[NF222]] **Landmarks on trail**: Geo-Fence & Trail Manager shall provide some key landmarks that will occur on a run to attract runners to pick that trail. (NF222)
+
+==== (S.2.3) Game Engine
+
+===== Functional Requirements
+
+. [[F231]] **Visualization of Enemies**: Game Engine shall generate virtual enemies that will attack the user during their run. (F231)
+
+. [[F232]] **Options to stay alive**: Game Engine shall provide users with several options when confronting an enemy such as sheltering, escaping and/or fighting back. (F232)
+
+. [[F233]] **Exercise routines**: Game Engine shall provide users with physical excercise routines when chosing the fight back option, which is adapted through their profile data. (F233)
+
+. [[F234]] **Trail visualization**: Game Engine shall provide users a virtual environment of the trail they are running on. Allowing users to track their progress during their run, and see any upcoming landmarks, such as nearby shops.   (F234)
+
+===== Non-Functional Requirements
+
+. [[NF231]] **Performance & responsiveness**: Game Engine shall provide smooth and responsive game play ensuring the runner doesn't run into any issues during their run.  (NF231)
+
+. [[NF232]] **Compliance and regulations**: Game Engine shall adhere to relevant game engine regulations, such as the use of legally licensed engines. (NF232)
+
+==== (S.2.4) Badge & Challenge Manager
+
+===== Functional Requirements
+
+. [[F241]] **Badges and challenges progression**: Badge & Challenge Manager shall provide users with an interface where they can view their acquired badges and their progession towards various challenges.  (F241)
+
+. [[F242]] **Update challenges and badges**: Badge & Challenge Manager shall provide staff an interface where they can update badges and challenges, such as add new challenges and badges for upcoming events.  (F242)
+
+. [[F243]] **New challenge notification**: Badge & Challenge Manager shall prompt user with notification when a new badge or challenge is ready to be acquired for an ongoing event. (F243)
+
+===== Non-Functional Requirements
+
+. [[NF241]] **Push notifications**: Badge & Challenge Manager will enable notifications on a users mobile phone and only send notifications when in compliance with security settings on the users device.  (NF241)
+
+. [[NF242]] **Badge sprites**: Badge & Challenge Manager will provide users with sprites when viewing different badges to motivate users into completing and earning the badges.  (NF242)
