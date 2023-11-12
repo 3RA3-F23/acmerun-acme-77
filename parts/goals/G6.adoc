@@ -5,4 +5,8 @@ ifdef::env-draft[]
 TIP: _Aspects that the system need not address. It states what the system will not do. This chapter addresses a key quality attribute of good requirements: the requirements must be delimited (or “scoped”). <<g6>> is not, however, the place for an analysis of risks and obstacles, which pertain to the project rather than the goals and correspondingly appears in chapter <<p6>>._  <<BM22>>
 endif::[]
 
-{emptysec}
+The limitations that the system will not do can be found below:
+
+* Offline Limitation: The app will not be able to provide full functionality without internet access. Users will not receive updated trail or shelter information or use certain features of the app. Offline tracking will be dependent on user privacy settings (cached map data), and real-time tracking will not be available.
+* Local Partner Shelter Availability: The availability and condition of shelter-zones provided by third-party local partners are not guaranteed by the application and are beyond its control. The app relies on external partners for shelter zones, and factors such as changes in business operations or park regulations may impact their availability.
+* Device Compatibility: The app will be limited to only supporting mobile operating systems still supported by mobile companies and cannot guarantee support on older mobile devices and operating systems. Ensuring compatibility with a wide range of devices and operating systems requires extensive development and testing resources.
