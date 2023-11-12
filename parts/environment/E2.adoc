@@ -5,4 +5,10 @@ ifdef::env-draft[]
 TIP: _List of elements of the environment that may affect or be affected by the system and project. It includes other systems to which the system must be interfaced. These components may include existing systems, particularly software systems, with which the system will interact — by using their APIs (program interfaces), or by providing APIs to them, or both. These are interfaces provided to the system from the outside world. They are distinct from both: interfaces provided by the system to the outside world (<<s3>>); and technology elements that the system's development will require (<<p5>>)._  <<BM22>>
 endif::[]
 
-{emptysec}
+
+The external components the system interacts with can be found below:
+
+* GPS/ Map Integration: The component required for real-time GPS and map integration to provide users with real-time location tracking to guide them along trails and display shelters, and safe-zones. The app needs to utilize APIs or interfaces provided by the GPS and map services to access location data, render maps, and provide accurate guidance to users during their running sessions. This can be done through Google or Apple Maps API.
+* HRM Integration: The component required to collect user health data during running sessions. The system must interact with various Heart Rate Monitors to collect accurate heart rate data from users. This involves compatibility with different HRM models and their respective APIs to ensure seamless integration.
+* Payment Gateway: The component required for users to make in-app purchases, processing payments. For premium features, or users to purchase an ACME Run HRM, the app must integrate an interface with a payment and monetization system to facilitate transactions securely. Since the application will be available through app stores, it will bill through the respective app store i.e. Google Play Store, Apple App Store.
+
