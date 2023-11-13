@@ -15,3 +15,6 @@ The system relies on the following four software components:
 In addition to these components, the system will interact with some external components (see <<e2>> for details).
 
 Users use **`ACME RUN`** (a mobile application) to interact with the system. The app lets users create profiles, add personal information (which is private and secured), select personal fitness programs that adhere to their goals, go on runs and view their acquired badges and challenges. Staff and administration can view the app through an **`Admin Portal`** where they can update geographical zones, useable trails, organize new events and create new badges and challenges. 
+
+.Components involved in {project-title} mobile app
+image::models/component_mobile.png[scale=70%,align="center"]

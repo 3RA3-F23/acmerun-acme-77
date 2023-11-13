@@ -1,0 +1,62 @@
+@startuml
+
+skinparam ranksep  5
+skinparam nodesep 45
+
+' ***********************
+' * External Components *
+' ***********************
+
+component gps       as "GPS Map\nIntegration" <<external>>
+() "location services" as locserv
+gps -- locserv
+
+component hrm       as "HRM\nIntegration" <<external>>
+() "heart\nrate" as hr
+hrm -- hr
+
+
+' ***********************
+' * Internal Components *
+' ***********************
+
+component profile as "User Profile\nManager"
+() "SignUp"   as signup
+() "manage\ninformation" as mi
+profile -- signup
+mi - profile
+
+
+component geo as "Geo-Fence &\nTrail Manager"
+() "game area" as ga
+ga - geo
+locserv <.. geo
+
+component badge as "Badge & Challenge\nManager"
+() "view" as view
+() "select\nchallenge" as sc
+view -- badge 
+sc - badge
+
+
+component gameeng as "Game Engine"
+() "run" as run
+run - gameeng
+gameeng .> ga
+hr <.. gameeng
+
+
+' **************
+' * client app *
+' **************
+
+component mobile as "Client-App"
+signup <.. mobile
+mobile ..> view
+mobile .> run
+
+actor "Patron" as P
+P .> mobile
+
+
+@enduml
