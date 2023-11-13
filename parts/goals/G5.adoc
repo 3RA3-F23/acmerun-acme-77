@@ -31,9 +31,9 @@ The use case diagram above highlights how we anticipate our direct stakeholders 
 
     1. During a running session the system generates virtual enemies that confront the user 
     2. The system prompts the user with options for confronting the enemy: sheltering, escaping, fight back 
-    3. If the user choses to fight back the system will generate a set of excercises for the user to complete
+    3. If the user choses to fight back the system will generate a set of exercises for the user to complete
     4. If the user choses to escape the system will determine a speed the user must maintain based on the users collected data
-    5. If the user is not in hardcore mode and choses to take shelter the system will show nearby zones where the user can rest 
+    5. If the user is not in hardcore mode and chooses to take shelter the system will show nearby zones where the user can rest 
 
 * [[uc4,UC4]] *UC4: Update geographical zone or trails.* 
 
