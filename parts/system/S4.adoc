@@ -5,23 +5,4 @@ ifdef::env-draft[]
 TIP: _Examples of interaction between the environment (or human users) and the system, expressed as user stories. Such scenarios are not by themselves a substitute for precise descriptions of functionality (<<s3>>), but provide an important complement by specifying cases that these behavior descriptions must support; they also serve as a basis for developing test cases. The scenarios most relevant for stakeholders are given in chapter <<g5>> in the Goals book, at a general level, as use cases; in contrast, <<s4>> can refer to system components and functionality (from other chapters of the System book) as well as special and erroneous cases, and introduce more specific scenarios._  <<BM22>>
 endif::[]
 
-===== Functional Requirements
-
-. (S.3.1) **APIs**:
-
-For the app, there are several APIs that are incorporated to facilitate interaction with eternal systems. One of the APIs is the 'User Fitness Information' API, which integrates with third-party fitness trackers that users may wear such as HRMs. This is responsible for providing the adequate functionalities for retrieving and updating user fitness data.
-
-. The interface offers two key operations: retrieval of the data and updating the user's fitness goals.
-. It takes in two arguments for both: the user ID and an authentication token to ensure security is maintained.
-. The 'getFitnessData' operation returns the user's fitness data to the record, including their age, run history, and personalized programs.
-. The 'updateGoal' operation allows for the modification of the user's goals, such as their running routines or preffered distances.
-
-The second  API would be the 'Geolocation' API which would be tracking the user's geographical location during their runs. It would enable feautures that map the running route, measure distances, and provide real-time updates that are relevant to their location. 
-
-. The interface offers two key operations: recording the location of the user's runs and updating the user's run details.
-. The getCurrentLocation operation retrieves the current geolocation of a specific user. It requires the user ID and an authentication token for security. The response, GeolocationResponse, may include latitude, longitude, and a timestamp.
-. The updateLocation operation allows users to update their geolocation. It requires the user ID, and new coordinates (latitude and longitude). 
-
-
-. (S.3.2) **Wireframes**:
 
