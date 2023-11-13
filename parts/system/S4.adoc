@@ -7,8 +7,9 @@ endif::[]
 
 **S.4.1: Starting a Running Session**:
 
- **Use Case**: UC2
- **Primary Actor**: Runner
+
+**Use Case**: UC2
+**Primary Actor**: Runner
 . Precondition: User has the app installed, logged in, and GPS and other necessary permissions allowed.
 . Trigger: User starts a run.
 
