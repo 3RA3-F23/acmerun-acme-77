@@ -9,9 +9,12 @@ endif::[]
 
 
 **Use Case**: UC2
+
 **Primary Actor**: Runner
-. Precondition: User has the app installed, logged in, and GPS and other necessary permissions allowed.
-. Trigger: User starts a run.
+
+**Precondition**: User has the app installed, logged in, and GPS and other necessary permissions allowed.
+
+**Trigger**: User starts a run.
 
 **Main Success Scenario**:
 
@@ -34,10 +37,15 @@ The user completes the running session, and the app updates their training plan 
 
 **S.4.2: Confronting Virtual Enemies**:
 
-. Use Case: UC3
-. Primary Actor: Runner
-. Precondition: User is in an active running session.
-. Trigger: The app generates virtual enemies to confront the user.
+
+**Use Case**: UC3
+
+**Primary Actor**: Runner
+
+**Precondition**: User is in an active running session.
+
+**Trigger**:  The app generates virtual enemies to confront the user.
+
 **Main Success Scenario**:
 
 . During a running session, the app generates virtual enemies that confront the user.
@@ -56,10 +64,15 @@ The user completes the running session, and the app updates their training plan 
 
 **S.4.3: Updating Geographical Zone or Trails**:
 
-. Use Case: UC4
-. Primary Actor: Admin Team
-. Precondition: Admin Team has access to the app's admin portal.
-. Trigger: Admin Team decides to update geographical zones or trails.
+
+**Use Case**: UC4
+
+**Primary Actor**: Admin Team
+
+**Precondition**: Admin Team has access to the app's admin portal.
+
+**Trigger**:  Admin Team decides to update geographical zones or trails.
+
 **Main Success Scenario**:
 
 . Admin Team opens the app through an admin portal.
@@ -78,10 +91,15 @@ The user completes the running session, and the app updates their training plan 
 
 **S.4.4: Checking Badges and Fitness Achievements**:
 
-. Use Case: UC5
-. Primary Actor: Runner
-. Precondition: User is logged into the app and has completed runs.
-. Trigger: User wants to check their badges and fitness achievements.
+
+**Use Case**: UC5
+
+**Primary Actor**: Runner
+
+**Precondition**: User is logged into the app and has completed runs.
+
+**Trigger**: User wants to check their badges and fitness achievements.
+
 **Main Success Scenario**:
 
 . The user navigates to their profile within the app.
@@ -99,10 +117,14 @@ The user reviews their badges and achievements, motivating them to set new fitne
 
 **S.4.5: Reviewing Run Statistics and Progress**:
 
-. Use Case: UC6
-. Primary Actor: Runner
-. Precondition: User has completed multiple running sessions.
-. Trigger: User wants to review detailed statistics and progress.
+
+**Use Case**: UC6
+
+**Primary Actor**: Runner
+
+**Precondition**: User has completed multiple running sessions.
+**Trigger**: User wants to review detailed statistics and progress.
+
 **Main Success Scenario**:
 
 . User navigates to the app's statistics section.
