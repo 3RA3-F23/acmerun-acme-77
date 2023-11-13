@@ -5,10 +5,10 @@ ifdef::env-draft[]
 TIP: _Examples of interaction between the environment (or human users) and the system, expressed as user stories. Such scenarios are not by themselves a substitute for precise descriptions of functionality (<<s3>>), but provide an important complement by specifying cases that these behavior descriptions must support; they also serve as a basis for developing test cases. The scenarios most relevant for stakeholders are given in chapter <<g5>> in the Goals book, at a general level, as use cases; in contrast, <<s4>> can refer to system components and functionality (from other chapters of the System book) as well as special and erroneous cases, and introduce more specific scenarios._  <<BM22>>
 endif::[]
 
-**S.4.1: Starting a Running Session**
+**S.4.1: Starting a Running Session**:
 
- Use Case: UC2
-. Primary Actor: Runner
+ **Use Case**: UC2
+ **Primary Actor**: Runner
 . Precondition: User has the app installed, logged in, and GPS and other necessary permissions allowed.
 . Trigger: User starts a run.
 
@@ -31,7 +31,7 @@ The user completes the running session, and the app updates their training plan 
 . User decides not to connect the HRM, limiting the data collected during the run.
 . User selects a trail outside their geographical zone, cuasing the app to suggest alternative trails.
 
-==**S.4.2: Confronting Virtual Enemies**:
+**S.4.2: Confronting Virtual Enemies**:
 
 . Use Case: UC3
 . Primary Actor: Runner
@@ -75,7 +75,7 @@ The user completes the running session, and the app updates their training plan 
 . Technical issues prevent the app from pushing the update to users, causing a delay in reflecting the changes.
 . Incomplete collaboration with local authorities leads to inaccuracies in the updated geographical information.
 
-==**S.4.4: Checking Badges and Fitness Achievements**:
+**S.4.4: Checking Badges and Fitness Achievements**:
 
 . Use Case: UC5
 . Primary Actor: Runner
@@ -96,7 +96,7 @@ The user reviews their badges and achievements, motivating them to set new fitne
 . User encounters a technical glitch, temporarily preventing them from accessing their badges and achievements.
 . The app fails to update the user's profile with the recently earned badge.
 
-==**S.4.5: Reviewing Run Statistics and Progress**:
+**S.4.5: Reviewing Run Statistics and Progress**:
 
 . Use Case: UC6
 . Primary Actor: Runner
