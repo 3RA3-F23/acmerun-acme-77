@@ -167,7 +167,7 @@ This is critical to maintain user engagement and provide a challenging aspect to
 This scenario provides valuable insight to the user regarding their runs. It enriches user experience by sharing relevant statistics that allow the user to identify areas of improvement.
 
 .UML diagram of scenario 5
-image::models/s4uml2.drawio.png[scale=70%,align="center"]
+image::models/s4uml2.png[scale=70%,align="center"]
 
 This diagram shows how the user reaches the statistics page, highlighting the importance of having a simple navigation process. It also shows the different ways a user would consider displaying their data.
 
