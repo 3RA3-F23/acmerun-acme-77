@@ -35,6 +35,14 @@ The user completes the running session, and the app updates their training plan 
 . User decides not to connect the HRM, limiting the data collected during the run.
 . User selects a trail outside their geographical zone, cuasing the app to suggest alternative trails.
 
+**Importance**:
+This scenario showcases the process to starting a run and the preliminary choices a user can make before starting. It also highlights the process and the user inputs that are relevant to start.
+
+image::models/s4uml.png[scale=70%,align="center"]
+
+This illustrates the choice that a user can make regarding connecting their HRM, as well as the order of interactions throughout their experience with the app. It demonstrates the actions taken when picking a run, from opening to finding a route.
+
+
 **S.4.2: Confronting Virtual Enemies**:
 
 
@@ -63,6 +71,10 @@ The user completes the running session, and the app updates their training plan 
 . User encounters technical issues during the confrontation segment, leading to an incomplete experience.
 . User in hardcore mode struggles to maintain the required speed, affecting their overall performance.
 
+**Importance**:
+This indicates the additional components to the mode, and the pop ups that alert the user according to their mode. It is key to enriching the user's experience when trying the different modes.
+
+
 **S.4.3: Updating Geographical Zone or Trails**:
 
 
@@ -88,6 +100,10 @@ The user completes the running session, and the app updates their training plan 
 
 . Technical issues prevent the app from pushing the update to users, causing a delay in reflecting the changes.
 . Incomplete collaboration with local authorities leads to inaccuracies in the updated geographical information.
+
+**Importance**:
+This allows for continuous improvement of the chosen trails. It also caters to a larger area as more routes are added to the database, hence why streamlining the process of modidying the routes is critical.
+
 
 **S.4.4: Checking Badges and Fitness Achievements**:
 
@@ -116,6 +132,10 @@ The user reviews their badges and achievements, motivating them to set new fitne
 . User encounters a technical glitch, temporarily preventing them from accessing their badges and achievements.
 . The app fails to update the user's profile with the recently earned badge.
 
+**Importance**:
+This is critical to maintain user engagement and provide a challenging aspect to the platform. It also ensures continuous usage of the app, gaining a loyal group of users. 
+
+
 **S.4.5: Reviewing Run Statistics and Progress**:
 
 
@@ -141,4 +161,11 @@ The user reviews their badges and achievements, motivating them to set new fitne
 
 . Technical issues prevent the app from displaying accurate statistics, causing frustration for the user.
 . The user misinterprets the displayed statistics, leading to potential adjustments in their training plan.
+
+**Importance**:
+This scenario provides valuable insight to the user regarding their runs. It enriches user experience by sharing relevant statistics that allow the user to identify areas of improvement.
+
+image::models/s4uml2.drawio.png[scale=70%,align="center"]
+
+This diagram shows how the user reaches the statistics page, highlighting the importance of having a simple navigation process. It also shows the different ways a user would consider displaying their data.
 
