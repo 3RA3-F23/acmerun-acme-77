@@ -5,10 +5,10 @@ ifdef::env-draft[]
 TIP: _Examples of interaction between the environment (or human users) and the system, expressed as user stories. Such scenarios are not by themselves a substitute for precise descriptions of functionality (<<s3>>), but provide an important complement by specifying cases that these behavior descriptions must support; they also serve as a basis for developing test cases. The scenarios most relevant for stakeholders are given in chapter <<g5>> in the Goals book, at a general level, as use cases; in contrast, <<s4>> can refer to system components and functionality (from other chapters of the System book) as well as special and erroneous cases, and introduce more specific scenarios._  <<BM22>>
 endif::[]
 
-**S.4.1: Starting a Running Session**:
+**S.4.1: Initiating a Running Session**:
 
 
-**Use Case**: UC2
+**Use Case**: UC1, UC2
 
 **Primary Actor**: Runner
 
@@ -23,9 +23,9 @@ endif::[]
 . User connects to a heart rate monitor (HRM) if available.
 . The app suggests nearby trails within the user's radius.
 . User selects a trail and chooses the mode.
-. For hardcore mode, the app informs the user that taking shelter against enemies will not be an option.
-. During the run, the app collects data such as heart rate.
-. The app adapts the user's training plan based on factors such as their decisions against virtual enemies and heart rate data.
+. The app will prompt the user to a drop down menu of different modes to play, and provide further instructions for hardcore mode.
+. During the run, the app collects data and regularly updates the run information.
+. The app adapts the user's training plan based on factors such as their decisions against virtual enemies and heart rate data, as well as their history of preferences.
 
 **Success Postcondition**:
 The user completes the running session, and the app updates their training plan based on the collected data. Virtual enemies encountered during the run contribute to the user's progress in the app.
@@ -38,7 +38,7 @@ The user completes the running session, and the app updates their training plan 
 **S.4.2: Confronting Virtual Enemies**:
 
 
-**Use Case**: UC3
+**Use Case**: UC3, UC4
 
 **Primary Actor**: Runner
 
@@ -49,10 +49,11 @@ The user completes the running session, and the app updates their training plan 
 **Main Success Scenario**:
 
 . During a running session, the app generates virtual enemies that confront the user.
-. The app prompts the user with options for confronting the enemy: sheltering, escaping, or fighting back.
-. If the user chooses to fight back, the app generates a set of exercises for the user to complete.
-. If the user chooses to escape, the app determines a speed the user must maintain based on the user's collected data.
-. If the user is not in hardcore mode and chooses to take shelter, the app shows nearby zones where the user can rest.
+. The app prompts the user with a pop up that lists options for confronting the enemy: sheltering, escaping, or fighting back.
+. If the user chooses to fight back or to escape, the app provides further instructions accordingly.
+. Otherwise, if the user is not in hardcore mode and chooses to take shelter, the app shows nearby zones where the user can rest based on location.
+. Tracks progress by allowing the user to click a completion button for each of the different options.
+
 
 **Success Postcondition**:
 . The user successfully deals with the virtual enemies, completing the confrontation segment of the running session. The app records the user's choices for further analysis.
@@ -77,8 +78,7 @@ The user completes the running session, and the app updates their training plan 
 
 . Admin Team opens the app through an admin portal.
 . Admin Team accesses the database of predefined geographical zones and trails.
-. Admin Team collaborates with local authorities and partners to add geographical zones and trails.
-. Admin Team updates the database to include the new ones.
+. Admin Team adds and updates the geographical zones and trails based on discussions with other collaborators.
 . The app prompts the team to finalize changes and push the new update to users' phones.
 
 **Success Postcondition**:
@@ -102,10 +102,11 @@ The user completes the running session, and the app updates their training plan 
 
 **Main Success Scenario**:
 
-. The user navigates to their profile within the app.
-. Featured badges and challenges are displayed for ongoing events and global challenges.
-. The user can view all challenges to be completed and all badges that can be acquired.
-. Upon completing a challenge, the user is awarded a virtual badge displayed on their profile.
+. Featured badges and challenges are displayed pn the user's profile for ongoing events and global challenges.
+. The user can view all possible challenges and badges.
+. The user can see potiential challenges, track their progress to earning certain badges and completing challenges.
+. The user can find new badges and completed challenges shown on their profile.
+
 
 **Success Postcondition**:
 The user reviews their badges and achievements, motivating them to set new fitness goals. The virtual badge earned is displayed prominently on their profile.
@@ -118,11 +119,12 @@ The user reviews their badges and achievements, motivating them to set new fitne
 **S.4.5: Reviewing Run Statistics and Progress**:
 
 
-**Use Case**: UC6
+**Use Case**: UC4, UC5
 
 **Primary Actor**: Runner
 
 **Precondition**: User has completed multiple running sessions.
+
 **Trigger**: User wants to review detailed statistics and progress.
 
 **Main Success Scenario**:
