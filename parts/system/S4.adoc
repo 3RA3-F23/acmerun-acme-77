@@ -5,4 +5,113 @@ ifdef::env-draft[]
 TIP: _Examples of interaction between the environment (or human users) and the system, expressed as user stories. Such scenarios are not by themselves a substitute for precise descriptions of functionality (<<s3>>), but provide an important complement by specifying cases that these behavior descriptions must support; they also serve as a basis for developing test cases. The scenarios most relevant for stakeholders are given in chapter <<g5>> in the Goals book, at a general level, as use cases; in contrast, <<s4>> can refer to system components and functionality (from other chapters of the System book) as well as special and erroneous cases, and introduce more specific scenarios._  <<BM22>>
 endif::[]
 
+===**S.4.1: Starting a Running Session**:
+
+. Use Case: UC2
+. Primary Actor: Runner
+. Precondition: User has the app installed, logged in, and GPS and other necessary permissions allowed.
+. Trigger: User starts a run.
+**Main Success Scenario**:
+
+. User opens the fitness app.
+. The app prompts the user to start a running session.
+. User connects to a heart rate monitor (HRM) if available.
+. The app suggests nearby trails within the user's radius.
+. User selects a trail and chooses the mode.
+. For hardcore mode, the app informs the user that taking shelter against enemies will not be an option.
+. During the run, the app collects data such as heart rate.
+. The app adapts the user's training plan based on factors such as their decisions against virtual enemies and heart rate data.
+**Success Postcondition**:
+The user completes the running session, and the app updates their training plan based on the collected data. Virtual enemies encountered during the run contribute to the user's progress in the app.
+
+**Secondary Scenarios**:
+
+. User decides not to connect the HRM, limiting the data collected during the run.
+. User selects a trail outside their geographical zone, cuasing the app to suggest alternative trails.
+
+==**S.4.2: Confronting Virtual Enemies**:
+
+. Use Case: UC3
+. Primary Actor: Runner
+. Precondition: User is in an active running session.
+. Trigger: The app generates virtual enemies to confront the user.
+**Main Success Scenario**:
+
+. During a running session, the app generates virtual enemies that confront the user.
+. The app prompts the user with options for confronting the enemy: sheltering, escaping, or fighting back.
+. If the user chooses to fight back, the app generates a set of exercises for the user to complete.
+. If the user chooses to escape, the app determines a speed the user must maintain based on the user's collected data.
+. If the user is not in hardcore mode and chooses to take shelter, the app shows nearby zones where the user can rest.
+
+**Success Postcondition**:
+. The user successfully deals with the virtual enemies, completing the confrontation segment of the running session. The app records the user's choices for further analysis.
+
+**Secondary Scenarios**:
+
+. User encounters technical issues during the confrontation segment, leading to an incomplete experience.
+. User in hardcore mode struggles to maintain the required speed, affecting their overall performance.
+
+==**S.4.3: Updating Geographical Zone or Trails**:
+
+. Use Case: UC4
+. Primary Actor: Admin Team
+. Precondition: Admin Team has access to the app's admin portal.
+. Trigger: Admin Team decides to update geographical zones or trails.
+**Main Success Scenario**:
+
+. Admin Team opens the app through an admin portal.
+. Admin Team accesses the database of predefined geographical zones and trails.
+. Admin Team collaborates with local authorities and partners to add geographical zones and trails.
+. Admin Team updates the database to include the new ones.
+. The app prompts the team to finalize changes and push the new update to users' phones.
+
+**Success Postcondition**:
+. The app's geographical zones and trails are successfully updated, reflecting the changes made by the Admin Team. Users can now access the new trails and zones.
+
+**Secondary Scenarios**:
+
+. Technical issues prevent the app from pushing the update to users, causing a delay in reflecting the changes.
+. Incomplete collaboration with local authorities leads to inaccuracies in the updated geographical information.
+
+==**S.4.4: Checking Badges and Fitness Achievements**:
+
+. Use Case: UC5
+. Primary Actor: Runner
+. Precondition: User is logged into the app and has completed runs.
+. Trigger: User wants to check their badges and fitness achievements.
+**Main Success Scenario**:
+
+. The user navigates to their profile within the app.
+. Featured badges and challenges are displayed for ongoing events and global challenges.
+. The user can view all challenges to be completed and all badges that can be acquired.
+. Upon completing a challenge, the user is awarded a virtual badge displayed on their profile.
+
+**Success Postcondition**:
+The user reviews their badges and achievements, motivating them to set new fitness goals. The virtual badge earned is displayed prominently on their profile.
+
+**Secondary Scenarios**:
+
+. User encounters a technical glitch, temporarily preventing them from accessing their badges and achievements.
+. The app fails to update the user's profile with the recently earned badge.
+
+==**S.4.5: Reviewing Run Statistics and Progress**:
+
+. Use Case: UC6
+. Primary Actor: Runner
+. Precondition: User has completed multiple running sessions.
+. Trigger: User wants to review detailed statistics and progress.
+**Main Success Scenario**:
+
+. User navigates to the app's statistics section.
+. App displays comprehensive statistics, including total distance run, average pace, and heart rate trends.
+. User can view progress charts over time, showing improvements or areas for focus.
+. The app provides insights and suggestions for optimizing future runs based on the user's performance data.
+
+**Success Postcondition**:
+. The user gains valuable insights into their running progress, enabling them to make informed decisions for future training sessions. The app's analysis contributes to a personalized and effective training plan.
+
+**Secondary Scenarios**:
+
+. Technical issues prevent the app from displaying accurate statistics, causing frustration for the user.
+. The user misinterprets the displayed statistics, leading to potential adjustments in their training plan.
 
