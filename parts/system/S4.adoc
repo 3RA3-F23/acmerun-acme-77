@@ -23,4 +23,5 @@ The second  API would be the 'Geolocation' API which would be tracking the user'
 . The updateLocation operation allows users to update their geolocation. It requires the user ID, and new coordinates (latitude and longitude). 
 
 
-. (S.3.1) **Wireframes**:
+. (S.3.2) **Wireframes**:
+
