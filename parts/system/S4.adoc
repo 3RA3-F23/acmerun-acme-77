@@ -5,12 +5,13 @@ ifdef::env-draft[]
 TIP: _Examples of interaction between the environment (or human users) and the system, expressed as user stories. Such scenarios are not by themselves a substitute for precise descriptions of functionality (<<s3>>), but provide an important complement by specifying cases that these behavior descriptions must support; they also serve as a basis for developing test cases. The scenarios most relevant for stakeholders are given in chapter <<g5>> in the Goals book, at a general level, as use cases; in contrast, <<s4>> can refer to system components and functionality (from other chapters of the System book) as well as special and erroneous cases, and introduce more specific scenarios._  <<BM22>>
 endif::[]
 
-===**S.4.1: Starting a Running Session**:
+===S.4.1: Starting a Running Session:
 
-. Use Case: UC2
-. Primary Actor: Runner
-. Precondition: User has the app installed, logged in, and GPS and other necessary permissions allowed.
-. Trigger: User starts a run.
+ Use Case: UC2
+ Primary Actor: Runner
+ Precondition: User has the app installed, logged in, and GPS and other necessary permissions allowed.
+ Trigger: User starts a run.
+
 **Main Success Scenario**:
 
 . User opens the fitness app.
