@@ -24,8 +24,8 @@ The use case diagram above highlights how we anticipate our direct stakeholders 
     2. The user is prompted to chose between nearby trails in their geographical zones
     3. The user selects a trail they wish to run on and their game mode
     4. If the user selects the hardcore game mode, taking shelter against enemies will not be an option
-    4. During the run the system collects data such as heart rate
-    5. The system adapts the users training plan based on factors such their decisions against enemies and heart rate data
+    5. During the run the system collects data such as heart rate
+    6. The system adapts the users training plan based on factors such their decisions against enemies and heart rate data
 
 * [[uc3,UC3]] *UC3: Confronting virtual enemies.* 
 
