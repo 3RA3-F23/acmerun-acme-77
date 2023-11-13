@@ -1,16 +1,16 @@
 [#s4,reftext=S.4]
-=== (S.4) Detailed usage scenarios
+**(S.4) Detailed usage scenarios**:
 
 ifdef::env-draft[]
 TIP: _Examples of interaction between the environment (or human users) and the system, expressed as user stories. Such scenarios are not by themselves a substitute for precise descriptions of functionality (<<s3>>), but provide an important complement by specifying cases that these behavior descriptions must support; they also serve as a basis for developing test cases. The scenarios most relevant for stakeholders are given in chapter <<g5>> in the Goals book, at a general level, as use cases; in contrast, <<s4>> can refer to system components and functionality (from other chapters of the System book) as well as special and erroneous cases, and introduce more specific scenarios._  <<BM22>>
 endif::[]
 
-===S.4.1: Starting a Running Session:
+**S.4.1: Starting a Running Session**
 
- Use Case: UC2
- Primary Actor: Runner
- Precondition: User has the app installed, logged in, and GPS and other necessary permissions allowed.
- Trigger: User starts a run.
+. Use Case: UC2
+. Primary Actor: Runner
+. Precondition: User has the app installed, logged in, and GPS and other necessary permissions allowed.
+. Trigger: User starts a run.
 
 **Main Success Scenario**:
 
@@ -22,6 +22,7 @@ endif::[]
 . For hardcore mode, the app informs the user that taking shelter against enemies will not be an option.
 . During the run, the app collects data such as heart rate.
 . The app adapts the user's training plan based on factors such as their decisions against virtual enemies and heart rate data.
+
 **Success Postcondition**:
 The user completes the running session, and the app updates their training plan based on the collected data. Virtual enemies encountered during the run contribute to the user's progress in the app.
 
@@ -52,7 +53,7 @@ The user completes the running session, and the app updates their training plan 
 . User encounters technical issues during the confrontation segment, leading to an incomplete experience.
 . User in hardcore mode struggles to maintain the required speed, affecting their overall performance.
 
-==**S.4.3: Updating Geographical Zone or Trails**:
+**S.4.3: Updating Geographical Zone or Trails**:
 
 . Use Case: UC4
 . Primary Actor: Admin Team
