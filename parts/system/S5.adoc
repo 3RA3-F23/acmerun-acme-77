@@ -5,12 +5,10 @@ ifdef::env-draft[]
 TIP: _Classification of the behaviors, interfaces and scenarios (<<s2>>, <<s3>> and <<s4>>) by their degree of criticality. It is useful in particular if during the course of the project various pressures force the team to drop certain functions._  <<BM22>>
 endif::[]
 
-{emptysec}
-
 Priority Level is assigned based on MoSCoW classificiation:
-* High: Must-have
-* Medium: Should-have
-* Low: Could-have
+. High: Must-have
+. Medium: Should-have
+. Low: Could-have
 
 === Priority Table for User Profile Manager
 |===
@@ -68,6 +66,9 @@ Priority Level is assigned based on MoSCoW classificiation:
 |===
 
 The prioritization of requirements for ACME Run were created using two key metrics: user engagement and safety. High priority needs were defined as those that could have an impact on the safety and security of the app, users' privacy, or adherence to established legal or policy guildelines. Since user engagement was a defining factor for the success of the application, requirements which directly affected theses goals were also determined to be high priority.
+
 Requirements which classified as medium priority have impact on the applications goals but will not cause the goal to fail. Functions such as accessibility trail recommendation are functions that the application should have. Although they improve user experience, they are not neccessary for the app to function.
+
 Low priority requirements were considered "nice to have" that have little impact on the objectives of the application. This included badge sprites, and new challenge notifications. These capabilities are crucial for customising the user experience, the are not necessary for core operations.
+
 User engagement and safety had a high impact on how requirements were determined. It is important that users feel secure and motivated to continue app usage. Consequently, requirements involving these were prioritized.
