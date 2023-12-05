@@ -5,4 +5,15 @@ ifdef::env-draft[]
 TIP: _Main responsibilities in the project; required project staff and their needed qualifications. It defines the roles (as a human responsibility) involved in the project._  <<BM22>>
 endif::[]
 
-{emptysec}
+* Project Manager:
+** Role of overseeing the entire development of the project. Required qualifcations should include strong orginizational skills, and leadership skills.
+
+* Game Developer:
+** Role of developing, coding and programming the ACME RUN application. Required qualifications should include expertise in mobile game development and relevant programming languages.
+
+* Fitness Expert:
+** Role of designing the fitness aspect of the app. Required qualifcations should include a professional background in fitness and health, experience in personal training, and expertise in creating workout plans.
+
+* Local Geographical Expert:
+** Role of designing and choosing the running trails in respective geographical zones. Involves coordinating with local partners and ensuring safety of players. Required qualifications should include strong knowledge of local geographical area.
+
