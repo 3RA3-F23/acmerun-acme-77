@@ -5,8 +5,6 @@ ifdef::env-draft[]
 TIP: _Groups of people who can affect the project or be affected by it, and other places to consider for information about the project and system. It lists stakeholders and other requirements sources. It should define stakeholders as categories of people, not individuals, even if such individuals are known at the time of writing. The main goal of chapter <<g7>> is to avoid forgetting any category of people whose input is relevant to the project. It also lists documents and other information that the project, aside from soliciting input from stakeholders, can consult for requirements information._  <<BM22>>
 endif::[]
 
-No stakeholder table. Is this app only for runners? What about people who want to get into running but have never done trail runs before? What about people want a gym alternative?
-
 .Stakeholders for {project-title}
 [cols=".^1,2,1,1"]
 |===
