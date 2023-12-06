@@ -1,0 +1,93 @@
+@startuml
+
+!include ../_style/puml.style
+  
+class User {
+    + firstname: String
+    + lastname: String
+    + age: Integer
+    + weight: Float
+    + gender: String
+}
+
+
+class Credentials {
+    + login: String
+    - <<encrypted>> password: String
+}
+Credentials <--* User
+
+enum GAMEMODE {
+    + BEGINNER
+    + INTERMEDIATE
+    + SURVIVAL
+}
+
+enum STATUS {
+    + STARTED
+    + IN_PROGRESS
+    + PAUSED
+    + ENDED
+}
+
+abstract class RunningSession {
+    + id: Integer
+    + started: Date
+    + ended: Date
+    + complete: Boolean
+    + duration: Float
+    + hrm_enabled: Boolean
+}
+RunningSession *-> STATUS
+
+
+class Trail extends GPS {
+    + selected: Boolean
+    + trailID: String
+    + location: String
+    + difficulty: String
+}
+
+enum GAMEOPTIONS{
+    + SHELTER
+    + FIGHT_BACK
+    + ESCAPE
+}
+
+class BadgeEarned extends User{
+    + badgeID: String
+    + Accomplishment: String
+}
+
+class GameEngine extends RunningSession{
+    + modeSelected: String
+    + optionSelected: String
+    + trailSelected: String
+}
+
+GameEngine *-> GAMEOPTIONS
+GameEngine *-> GAMEMODE
+
+class HRM extends RunningSession {
+    + manufacturer: String
+    + deviceID: String
+    + model: String
+}
+
+class GPS extends RunningSession {
+    + enabled: Boolean
+
+}
+
+class Enemy extends GameEngine {
+    enemyID: String
+    enemyType: String
+    enemyDifficultyLevel: Integer
+}
+
+User *-> "*" RunningSession
+
+
+
+
+@enduml
