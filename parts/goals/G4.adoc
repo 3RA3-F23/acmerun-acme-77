@@ -5,24 +5,22 @@ ifdef::env-draft[]
 TIP: _Overview of the functions (behavior) of the system. Principal properties only (details are in the System book). It is a short overview of the functions of the future system, a kind of capsule version of book S, skipping details but enabling readers to get a quick grasp of what the system will do._  <<BM22>>
 endif::[]
 
+The following high level functional requirements for the application can be defined:
 
-Syncing the users' HRMs: Users should be able to sync the data collected from their HRMs to the app. This should include a builtin feature to display the highlights of their run, including but not limited to the duration and distance they ran.
+- *Syncing the users' HRMs.* Users should be able to sync the data collected from their HRMs to the app. This should include a builtin feature to display the highlights of their run, including but not limited to the duration and distance they ran.
 
-Nearby trail recommendations: The app must be able to take in the user's location if they wish to allow that feature, and then recommend which nearby trails to visit. This would also show the distance of those trails from them using geospatial tools.
+- *Nearby trail recommendations.* The app must be able to take in the user's location if they wish to allow that feature, and then recommend which nearby trails to visit. This would also show the distance of those trails from them using geospatial tools.
 
-Safety alerts: The app must highlight any concerns related to particular trails during certain weather conditions or other safety considerations. It must provide accurate information related to trail closures and maintenance conditions to enhance the runner's safety on the advertised trails.
+- *Community platform.* The app must allow runners to connect with their friends and plan to visit trails together. This will elevate the user experience and allow users to coordinate and commit to runs by using the platform.
 
-Community platform: The app must allow runners to connect with their friends and plan to visit trails together. This will elevate the user experience and allow users to coordinate and commit to runs by using the platform.
+- *24/7 trail information.* The app must list any information concerning the trails at all times, even when the trails are indicate to be closed overnight. This will allow users to research and plan ahead. 
 
-List nearby shops: When a user selects a trail, they should be able to navigate to a page that lists all the open shops that they can stop by along their runs. This should be updated according to the shops' operational hours and based on the time that the user schedules their run for.
+- *Device Compatibility.* To cater to as many members of the community, the app will be made accessible across various operating systems and environments (Apple, Android, web browser). Tracking feautures and game modes will be limited to personal mobile devices, while run scheduling will be available on browsers.
 
-The two most important functional requirements would be the safety alerts and trail recommendations. Failing to have a functional safety alert system within the app would deter runners from using the app if any issue were to arise and be left unannounced. This would cause distrust and would divert users to other fitness centers, as they would view the additional cost as a guarantee to their safety. This is a critical requirement to ensure that people are motivated to download and actively use the platform. Moreover, providing recommendations of nearby trails is the key factor that would promote downloads of the app and effective usage. By listing the nearby trails, the app would profit from active user traffic. This convenience sets the app for success in the industry. On the other hand, the remaining functional requirements are also very important, however, they compliment the app rather than provide it the most business value.
+The two most important functional requirements would be the 24/7 trail information and trail recommendations. Failing to have a 24/7 trail information feature within the app would deter runners from using the app if their schedule preferences were unmet. This would cause the app to be inconvenient to use and would divert users to other available facilities. This is a critical requirement to ensure that people are motivated to download and actively use the platform. Moreover, providing recommendations of nearby trails is the key factor that would promote downloads of the app and effective usage. By listing the nearby trails, the app would profit from active user traffic. This convenience sets the app for success in the industry. On the other hand, the remaining functional requirements are also very important, however, they compliment the app rather than provide it the most business value.
 
-Nonfunctional requirements:
+The following high level functional requirements for the application can be defined:
 
-User data safety: The app must not share or disclose  user data with external sources and must only display it for the user's own reference. Ensuring confidentiality is critical when recording location and health information.
-
-24/7 trail information: The app must list any information concerning the trails at all times, even when the trails are indicate to be closed overnight. This will allow users to research and plan ahead. 
 
 These requirements are relevant as they enhance the user experience beyond what is available at current facilities and ensures that the overall objective of increasing accesssibility is met wihtout jeapordizing key features. This is attributed to the wants of runners who would benefit from the trails. It also prioritizes the needs of the community that the app will cater to. Such requirements ensure that the app is safely deployed and offers the necessary services to its users. It optimizes the business value by creating an efficient platform for its users that exceeds what is available in the current market. 
 
