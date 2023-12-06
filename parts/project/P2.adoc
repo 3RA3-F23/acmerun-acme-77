@@ -5,4 +5,8 @@ ifdef::env-draft[]
 TIP: _Any a priori choices binding the project to specific tools, hardware, languages or other technical parameters. Not all technical choices in projects derive from a pure technical analysis; some result from company policies. While some project members may dislike non-strictly-technical decisions, they are a fact of project life and must be documented, in particular for the benefit of one of the quality factors for requirements: "requirements must be justified"._  <<BM22>>
 endif::[]
 
-{emptysec}
+- Multiplatform availability of the client application for both mobile and web browsers. This could lead to developing the application in Flutter.
+
+- Bluetooth low energy technology for the integration of the HRMs within the application. This would ensure compatibility with a wide selection of monitors, for seamless data synchronization.
+
+- To minimize costs, the development team will use microsoft laptops to develop the platforms. Thus, ensuring compatibility within the team, since they are more reliable and affordable to source for the team.
