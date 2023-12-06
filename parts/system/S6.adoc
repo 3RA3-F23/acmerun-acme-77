@@ -20,11 +20,13 @@ endif::[]
 . **User Engagement**: The Badge & Challenge Manager will be evaluated based on its ability to enhance user engagement and make the app more attractive to users. This involves ensuring that push notifications (NF241) are implemented to provide timely and relevant updates on challenges and badges, aligning with the user's security settings. Additionally, the inclusion of visually appealing badge sprites (NF242) will be assessed through user feedback and internal assessments, aiming to motivate users by making the badge viewing experience visually engaging. (NF222, NF241, NF242)
 
 
-=== Traceability Matrix for Scenario S.4.1:
-|Scenario | Requirement |Test ID | Test Name | Description | 
-| UC1 | Integrate HRM | 01 | Test HRM Connection | If a heart rate monitor is available, verify that the app can successfully connect to it and receive data. |
-| UC1 | GPS Integration | 02 | Test GPS Permission Requests | Verify that the app correctly requests and handles necessary permissions, such as GPS access.|
-| UC1 | Login/Logout | 03 | Test Login Functionality | Verify that users can successfully log in to the app. |
-| UC1 | Track Workouts | 04 | Test Run Data Collection | Verify that the app correctly collects and updates run data during the run. |
-| UC1 | Game Options | 05 | Test Workout Selection | Ensure that the user can successfully select a mode from the menu and that the app provides the correct instructions for each mode.|
+==== Traceability Matrix for Scenario S.4.1:
+
+| Scenario | Requirement |Test ID | Test Name | Description
+
+| UC1 | Integrate HRM | 01 | Test HRM Connection | If a heart rate monitor is available, verify that the app can successfully connect to it and receive data. 
+| UC1 | GPS Integration | 02 | Test GPS Permission Requests | Verify that the app correctly requests and handles necessary permissions, such as GPS access.
+| UC1 | Login/Logout | 03 | Test Login Functionality | Verify that users can successfully log in to the app. 
+| UC1 | Track Workouts | 04 | Test Run Data Collection | Verify that the app correctly collects and updates run data during the run. 
+| UC1 | Game Options | 05 | Test Workout Selection | Ensure that the user can successfully select a mode from the menu and that the app provides the correct instructions for each mode.
 
