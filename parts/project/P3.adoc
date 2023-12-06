@@ -5,4 +5,33 @@ ifdef::env-draft[]
 TIP: _List of tasks to be carried out and their scheduling. It defines the project's key dates._  <<BM22>>
 endif::[]
 
-{emptysec}
+This project can be broken down into the following 4 sprints:
+
+. Priority requirements/Basic functionality (January 2024)
+.. User registration and profile
+
+.. Basic geographical zone mapping
+
+.. Basic interaction mechanics and inital set of workout options which user can chose
+
+
+. Interactive Fitness Development (February 2024)
+.. Gamified running mechanics including enemies, safe zones, ability to shelter, escape and fight back
+
+.. Initial local partner starting with McMaster University to setup the nearby trails
+
+. Advanced Features (March 2024)
+.. HRM integration
+
+.. Create adaptive workout system which remembers users choices and creates workout plans for them
+
+.. Badge/Global Challenges
+
+. Expansion (April 2024)
+.. Optimization and stakeholders feedback
+
+.. Polishing UI
+
+.. Scaling the app to other cities
+
+This will be the schedule for each month of development. Month 1 is the most critical as this will be the MVP that we show our stakeholders for their feedback. The main goal for the first month is to setup a basic user interface where users can signup/register and input personal information and fitness goals. Develop a basic geographical area with trails that players can run on, during this run players can select from an initial set of workout excercies they wish to complete at random times. As these will be the most interacted with components, we would develop these first for basic functionality as our MVP to show our stakeholders to get valuable feedback on the direction of development.
