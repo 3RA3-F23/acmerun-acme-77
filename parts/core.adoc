@@ -14,4 +14,3 @@ include::./project/index.adoc[]
 
 include::./bibliography.adoc[]
 
-include::./appendix/index.adoc[]
