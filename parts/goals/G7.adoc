@@ -56,6 +56,7 @@ Local shops could partner to provide stops and act as a resting shelter for runn
 ==== (G.7.3) Requirements Sources
 
 Market Research:
+
 To ensure the success of the app, the team must research available facilities that are considered competitors. Gathering information on the cost and locations of different gyms is necessary to understand what is presently available to the community.
 
 Regulatory and Legal Requirements:
