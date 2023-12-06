@@ -7,8 +7,11 @@ endif::[]
 
 
 Some assumptions made can be found below:
+ 
  * **Operating System Compatibility:** It is assumed that ACME Run will only support mobile operating systems that are still being supported by mobile companies and app stores i.e. Android 11 - 14.1, iOS 15 - 17.1
+ 
  * **Availability of Local Partners:** It is assumed that capable and compliant local partners will be available for operations of the app. This includes defining shelter areas, and updating safe trail use.
+ 
  * **HRM Integration**: It is assumed that a significant number of users will have access to a HRM monitor, through their smartphone or externally i.e. smart watch or external device. As development efforts concentrate on HRM integration as a primary means of collecting user health data during running sessions.
 
 
