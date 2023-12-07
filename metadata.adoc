@@ -2,6 +2,6 @@ Mahad Ahmed <ahmem73@mcmaster.ca>; Prerna Prabhu <prabhp3@mcmaster.ca>; Luna Alj
 :project-title: ACME RUN
 :course-number: SE/CS 3RA3
 :course-term: Fall
-:revnumber: 1
-:milestone: 1
-:env-draft:
+:revnumber: 3
+:milestone: 3
+// :env-draft:
