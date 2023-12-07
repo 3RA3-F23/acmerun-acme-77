@@ -9,4 +9,5 @@ The expected benefits of this mobile application primarily revolve around enhanc
 
 It allows for a gamified workout experience catering to various individuals, making the user experience engaging and enjoyable. With the adaptive approach, tailoring to each individuals’ goals, the app ensures users will have personalized experiences similar to those of personal fitness programs without the time commitment or cost. The variety of workout options, including sheltering, escaping, or fighting virtual enemies, introduces excitement and variety into fitness routines, preventing monotony and promoting commitment to staying active. Moreover, the badge and challenge system encourage users to set and achieve fitness milestones, building a community of motivated and engaged individuals. As a result, the app's benefits extend beyond cost-efficiency and include safety, accessibility, personalization, and sustained motivation, effectively empowering users to embark on and maintain their fitness journeys.
 
+.Goal Model for {project-title}
 image::models/goal_model.drawio.png[scale=50%,align="center"]
