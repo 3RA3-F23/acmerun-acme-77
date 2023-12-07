@@ -5,33 +5,29 @@ ifdef::env-draft[]
 TIP: _Initially, description of what the requirements process will be; later, report on its steps. It starts out as a plan for conducting the requirements elicitation process, but is meant to be updated as part of that process so that it includes the key lessons of elicitation._  <<BM22>>
 endif::[]
 
-Client:
+* Client (<<Sandra>>)::
 
  - A closed interview with the client can help us gather specific project requirements and constraints that we must abide by. A pre-defined agenda would encourage us to brainstorm what we already know, and determine the gaps we need to fill before proceeding with the project.
- - A key question to ask is : "Can you provide the budget constraints and timeline that is expected for this project?". 
- - This question is relevant as it shows us the parameters we need to work within to satisfy the clients, but also sets the guidelines we must work within. This provides us with the information about the duration of the project and allows us to plan accordingly.
+ - A key question to ask is : "Can you provide the budget constraints and timeline that Hammercorp expects and is willing to allocate for this project?". This question is relevant as it shows us the parameters we need to work within to satisfy the clients, but also sets the guidelines we must work within. This provides us with the information about the duration of the project and allows us to plan accordingly.
 
-Runners:
-
- - Hosting open interviews with local runners and running communities would allow for a more casual discourse that allows the potential users of the app to share what they value in product like this app. It allows us to have a broader scope to brainstorm and recognize which features to prioritize. 
- - A key question to ask is : " What are the key challenges you face when structuring your run/workouts?". 
- - This is relevant because it allows us to note what discrepencies exist with current facilities and suggests ways we can serve runners better with the app. It also encourages the runners to think of areas of improvement withing their current running schedules that we can use to develop an effective app.
-
-
-McMaster University:
+McMaster University (<<David>>):
 
  - A closed interview is ideal with the pilot partner, as we are interested in gather information regarding the extent of their support in the formal agreement of the app deployment. Having a set agenda ensures that all the questions are answered and there is no ambiguity in the partnership.
- - A key question to ask is : " How can McMaster University promote the app to its students while offering nearby trails to be listed on the app?". 
- - This would show the partner's ability to share and spread the word about the app. The university's response would indiciate how the app can be integrated into the student community by offering the most frequented trails to be listed. 
+ - A key question to ask is : " How can McMaster University promote the app to its students while offering nearby trails to be listed on the app?". This would show the partner's ability to share and spread the word about the app. The university's response would indiciate how the app can be integrated into the student community by offering the most frequented trails to be listed. 
 
-Local Authorities:
+* Experienced Runners (<<Jimmy>>):
+
+ - Hosting open interviews with local runners would allow for a more casual discourse that allows the potential users of the app to share what they value in product like this app. It allows us to have a broader scope to brainstorm and recognize which features to prioritize. 
+ - A key question to ask is : " What are the key challenges you face when structuring your runs/workouts?". This is relevant because it allows us to note what discrepencies exist with current facilities and suggests ways we can serve runners better with the app. It also encourages the runners to think of areas of improvement withing their current running schedules that we can use to develop an effective app.
+
+* Beginner Runners (<<Matt>>):
+
+ - Hosting open interviews with beginner runners and running communities would prevent bias and discrepancies from reducing the benefit of the interview. As beginners could have unique insight that the team has not considered before.
+ - A key question to ask is : " What are the key challenges you face when developing the motivation and acting on the intention of setting a consistent workout/run routine?". This is relevant because it shiws us the barriers to join such activities, and helps us make the app more accessible to inexperienced runners, or those limited due to financial or mobility factors. 
+
+Local Authorities (<<Sam>>)::
 
  - An open interview with key authority figures such as city planners would allow for the most productive discussions without a limited scope. Since both parties are experts in their fields, there is a benefit to exploring and brainstorming together rather than having a predefined agenda. 
- - A key question to ask is : "How can we integrate the trail recommendations with the local businesses and which businesses are best to contact about being possible resting stations for runners?".
- - This is a relevant question because city planners have the best understanding about community dynamics and business activity in the area. They would be able to supply us with advice regarding which businesses to contact, and how to offer value to the runners and business owners simulataneously. 
+ - A key question to ask is : "How can we integrate the trail recommendations with the local businesses and which businesses are best to contact about being possible resting stations for runners?". This is a relevant question because city planners have the best understanding about community dynamics and business activity in the area. They would be able to supply us with advice regarding which businesses to contact, and how to offer value to the runners and business owners simulataneously. 
 
-Investors: 
 
- - A closed interview with the investors would indicate that thorough research about this venture has been conducted. It would also promote a productive conversation in a potentially limited amount of time. 
- - A key question to ask is : "How do you envision your involvement in supporting the development and deployment of the app?". 
- - This question would encourage the investor to share their expectations regarding the extent of their financial support. It would also prompt them to detail their support over the timeline of the project.
