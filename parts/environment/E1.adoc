@@ -7,7 +7,7 @@ endif::[]
 
 ==== (E.1.1) Vocabulary
 
-* **API:** Application Programming Interface. a set of rules and protocols that allows different software applications to communicate with each other, used to enable the integration of different software systems, allowing them to work together and share data seamlessly.
+* **API:** Application Programming Interface, a set of rules and protocols that allows different software applications to communicate with each other, used to enable the integration of different software systems, allowing them to work together and share data seamlessly.
 * **A-MA-ZING HRM:** The HRM available to order as an in-app purchase for users, made by ACME.
 * **Geofence:** A virtual boundary or geographic area defined by GPS or RFID technology. Geofences are used for location-based services, such as triggering notifications or actions when a device enters or exits the defined area.
 * **Heart Rate Monitor (HRM):** A device designed to measure and track an individual's heart rate, often used in health and fitness applications to monitor physical activity and provide insights into cardiac health.
