@@ -10,8 +10,8 @@ Priority Level is assigned based on MoSCoW classificiation:
 . Medium: Should-have
 . Low: Could-have
 
-=== Priority Table for User Profile Manager
-|===
+==== Priority Table for User Profile Manager
+|====
 
 |Requirement ID | Requirement name | Priority Level | Reasoning 
 
@@ -22,10 +22,10 @@ Priority Level is assigned based on MoSCoW classificiation:
 | <<NF211>> | Accessibility | Medium | Important to ensure use from many people, but the app can function without it. Allows for inclusivity and reaching more users.
 | <<NF212>> | Personal Data Privacy | High | Crucial for ensuring the app's security. Vital to protect user's personal data, location information, and payment information.
 
-|===
+|====
 
-=== Priority Table for Geo-Fence & Trail Manager
-|===
+==== Priority Table for Geo-Fence & Trail Manager
+|====
 
 |Requirement ID | Requirement name | Priority Level | Reasoning 
 
@@ -36,10 +36,10 @@ Priority Level is assigned based on MoSCoW classificiation:
 | <<NF221>> | Compliance and Regulations | High | Critical feature to ensure the app follows the security settings enabled by the users device.
 | <<NF222>> | Landmarks on Trail | Medium | Helpful to motivate users to choose a trail.
 
-|===
+|====
 
-=== Priority Table for Game Engine
-|===
+==== Priority Table for Game Engine
+|====
 
 |Requirement ID | Requirement name | Priority Level | Reasoning 
 
@@ -50,10 +50,10 @@ Priority Level is assigned based on MoSCoW classificiation:
 | <<NF231>> | Performance & Responsiveness | Medium | Critical function of the app to interact with options user chose.
 | <<NF232>> | Compliance and Regulations | High | Critical for app to be available for use on the app store. Makes sure the app is 
 
-|===
+|====
 
-=== Priority Table for Badge & Challenge Manager
-|===
+==== Priority Table for Badge & Challenge Manager
+|====
 
 |Requirement ID | Requirement name | Priority Level | Reasoning 
 
@@ -63,7 +63,7 @@ Priority Level is assigned based on MoSCoW classificiation:
 | <<NF241>> | Push Notifications | Low/Medium | A good feature to have to remind users to use the app and keep engagement, but does not affect functionality.
 | <<NF242>> | Badge Sprites | Low | Nice to have to motivate users, make it appealing and fun, but does not affect functionality of the app or users' fitness goals.
 
-|===
+|====
 
 The prioritization of requirements for ACME Run were created using two key metrics: user engagement and safety. High priority needs were defined as those that could have an impact on the safety and security of the app, users' privacy, or adherence to established legal or policy guildelines. Since user engagement was a defining factor for the success of the application, requirements which directly affected theses goals were also determined to be high priority.
 
