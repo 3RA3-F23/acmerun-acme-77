@@ -8,7 +8,7 @@ endif::[]
 **S.4.1: Initiating a Running Session**:
 
 
-**Use Case**: UC1, UC2
+**Use Case**: <<UC1>> , <<UC2>>
 
 **Primary Actor**: Runner
 
@@ -33,7 +33,7 @@ The user completes the running session, and the app updates their training plan 
 **Secondary Scenarios**:
 
 . User decides not to connect the HRM, limiting the data collected during the run.
-. User selects a trail outside their geographical zone, cuasing the app to suggest alternative trails.
+. User is not satisfied with trail options near them, user gives up and walks around the neighborhood instead.
 
 **Importance**:
 This scenario showcases the process to starting a run and the preliminary choices a user can make before starting. It also highlights the process and the user inputs that are relevant to start.
@@ -47,7 +47,7 @@ This illustrates the choice that a user can make regarding connecting their HRM,
 **S.4.2: Confronting Virtual Enemies**:
 
 
-**Use Case**: UC3, UC4
+**Use Case**: <<UC1>> , <<UC2>>, <<UC3>> , <<UC4>>
 
 **Primary Actor**: Runner
 
@@ -79,7 +79,7 @@ This indicates the additional components to the mode, and the pop ups that alert
 **S.4.3: Updating Geographical Zone or Trails**:
 
 
-**Use Case**: UC4
+**Use Case**: <<UC1>> , <<UC4>>
 
 **Primary Actor**: Admin Team
 
@@ -109,7 +109,7 @@ This allows for continuous improvement of the chosen trails. It also caters to a
 **S.4.4: Checking Badges and Fitness Achievements**:
 
 
-**Use Case**: UC5
+**Use Case**: <<UC1>> , <<UC5>>
 
 **Primary Actor**: Runner
 
@@ -140,7 +140,7 @@ This is critical to maintain user engagement and provide a challenging aspect to
 **S.4.5: Reviewing Run Statistics and Progress**:
 
 
-**Use Case**: UC4, UC5
+**Use Case**: <<UC1>> , <<UC4>>, <<UC5>> 
 
 **Primary Actor**: Runner
 
