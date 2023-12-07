@@ -8,11 +8,19 @@ endif::[]
 
 Some of the potential effects of the application can be defined as follows:
 
-* Improved physical and overall health. This is possible since the application encourages and motivates users to increase their physical activity
+* Improved physical and overall health
+
+This is possible since the application encourages and motivates users to increase their physical activity
 by gamifying running. This can lead to numerous health benefits such as decreased risk of disease, improved sleep, better mental health, and increased
 physical strength <<TC21>>.
-* Increase in student interaction. This is possible through more McMaster students using the app. By being outdoors and noticing people partaking in the same
+
+* Increase in student interaction
+
+This is possible through more McMaster students using the app. By being outdoors and noticing people partaking in the same
 activity, students will naturally interact and create conversation. This can also lead to more users through word of mouth and friends promoting it to each other.
-* Increase in on-campus student population. This is possible as the application is geofenced to the McMaster campus and its surrounding areas. Students who
+
+* Increase in on-campus student population
+
+This is possible as the application is geofenced to the McMaster campus and its surrounding areas. Students who
 enjoy using the app will have more of a reason to come to campus. 
 
