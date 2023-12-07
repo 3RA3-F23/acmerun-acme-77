@@ -65,7 +65,7 @@ This illustrates the choice that a user can make regarding connecting their HRM,
 
 
 **Success Postcondition**:
-. The user successfully deals with the virtual enemies, completing the confrontation segment of the running session. The app records the user's choices for further analysis.
+The user successfully deals with the virtual enemies, completing the confrontation segment of the running session. The app records the user's choices for further analysis.
 
 **Secondary Scenarios**:
 
@@ -95,7 +95,7 @@ This indicates the additional components to the mode, and the pop ups that alert
 . The app prompts the team to finalize changes and push the new update to users' phones.
 
 **Success Postcondition**:
-. The app's geographical zones and trails are successfully updated, reflecting the changes made by the Admin Team. Users can now access the new trails and zones.
+The app's geographical zones and trails are successfully updated, reflecting the changes made by the Admin Team. Users can now access the new trails and zones.
 
 **Secondary Scenarios**:
 
