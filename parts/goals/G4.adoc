@@ -21,8 +21,9 @@ The two most important functional requirements would be the 24/7 trail informati
 
 The following high level non-functional requirements for the application can be defined:
 
-- *Compliance with City of Hamilton by-laws*
-- *Learnable interface, intuitive for a diverse user base*
+- *Compliance with City of Hamilton by-laws.* The app must follow regulations that are outlined by the city to ensure that its operations do not violate any policies. This could reference the trails used and the volume of users it can suggest per trail. 
+
+- *Learnable interface, intuitive for a diverse user base.* The app must be designed in a way that is easy for anyone to learn, minimizing the learning curve of downloading it. As such, it promotes fitness to people of all technological backgrounds.
 
 These requirements play a pivotal role in enhancing the deployment of the application. Compliance with city by-laws ensures the app meets local regulations, preventing any potential violations. The emphasis on a learnable and useable interface is crucial for attracting new users of diverse technological backgrounds. Thus, accommodating a diverse user base, which aligns with the app's goal of increasing accessibility to fitness programming. It also prioritizes the needs of the community that the app will cater to. Such requirements ensure that the app is safely deployed and offers the necessary services to its users. It optimizes the business value by creating an intuitive platform for its users that exceeds what is available in the current market. 
 
