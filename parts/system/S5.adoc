@@ -15,11 +15,11 @@ Priority Level is assigned based on MoSCoW classificiation:
 
 |Requirement ID | Requirement name | Priority Level | Reasoning 
 
-| <<F211>>  | Sign-up service | High | Crtitical feature of the app as personal work out regimes require access to geographical running location and saved user data.
+| <<F211>>  | Sign-up service | High | Crtitical feature of the app as personal work out routines require access to geographical running location and saved user data.
 | <<F212>>  | Preferences/User data | High | Critical feature of the app as allows for personalized workout experience.
 | <<F213>>  | Personalized Fitness Programs | High | Critical feature of the app. Allows for preferences and user data to be stored allowing for personalized workouts.
 | <<F214>>  | User Activity History | High | Critical feature of the app. Users must be able to see their previous runs and progress.
-| <<NF211>> | Accessibility | Medium | Important to ensure use from many people, but the app can function without it. Allows for inclusivity and reaching more users.
+| <<NF211>> | Accessibility | Medium | Important to ensure use from many people, but the app can function without it. Allows for inclusivity and to reach more users.
 | <<NF212>> | Personal Data Privacy | High | Crucial for ensuring the app's security. Vital to protect user's personal data, location information, and payment information.
 
 |====
@@ -67,8 +67,8 @@ Priority Level is assigned based on MoSCoW classificiation:
 
 The prioritization of requirements for ACME Run were created using two key metrics: user engagement and safety. High priority needs were defined as those that could have an impact on the safety and security of the app, users' privacy, or adherence to established legal or policy guildelines. Since user engagement was a defining factor for the success of the application, requirements which directly affected theses goals were also determined to be high priority.
 
-Requirements which classified as medium priority have impact on the applications goals but will not cause the goal to fail. Functions such as accessibility trail recommendation are functions that the application should have. Although they improve user experience, they are not neccessary for the app to function.
+Requirements which were classified as medium priority have impact on the applications goals but will not cause the goal to fail. Functions such as accessibility trail recommendation are functions that the application should have. Although they improve user experience, they are not neccessary for the app to function.
 
-Low priority requirements were considered "nice to have" that have little impact on the objectives of the application. This included badge sprites, and new challenge notifications. These capabilities are crucial for customising the user experience, the are not necessary for core operations.
+Low priority requirements were considered "nice to haves" that have little impact on the objectives of the application. This included badge sprites, and new challenge notifications. These capabilities are crucial for customising the user experience, they are not necessary for core operations.
 
 User engagement and safety had a high impact on how requirements were determined. It is important that users feel secure and motivated to continue app usage. Consequently, requirements involving these were prioritized.
