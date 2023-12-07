@@ -6,7 +6,7 @@ TIP: _Main responsibilities in the project; required project staff and their nee
 endif::[]
 
 * Project Manager:
-** Role of overseeing the entire development of the project. Required qualifcations should include strong orginizational skills, and leadership skills.
+** Role of overseeing the entire development of the project. Required qualifcations should include strong organizational skills, and leadership skills.
 
 * Game Developer:
 ** Role of developing, coding and programming the ACME RUN application. Required qualifications should include expertise in mobile game development and relevant programming languages.
