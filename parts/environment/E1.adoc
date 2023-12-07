@@ -5,10 +5,16 @@ ifdef::env-draft[]
 TIP: _Clear and precise definitions of all the vocabulary specific to the application domain, including technical terms, words from ordinary language used in a special meaning, and acronyms. It introduces the terminology of the project; not just of the environment in the strict sense, but of all its parts._  <<BM22>>
 endif::[]
 
+==== (E.1.1) Vocabulary
 
-* API: Application Programming Interface. a set of rules and protocols that allows different software applications to communicate with each other, used to enable the integration of different software systems, allowing them to work together and share data seamlessly.
-* A-MA-ZING HRM: The HRM available to order as an in-app purchase for users, made by ACME.
-* Geofence: A virtual boundary or geographic area defined by GPS or RFID technology. Geofences are used for location-based services, such as triggering notifications or actions when a device enters or exits the defined area.
-* Heart Rate Monitor (HRM): A device designed to measure and track an individual's heart rate, often used in health and fitness applications to monitor physical activity and provide insights into cardiac health.
-* McMaster: A University located in Hamilton, Ontario selected as a pilot partner, where _Hammer Corp_ will launch AMCE RUN under the name MacRun as a pilot application.
-* Privacy Policy: A formal document or statement that outlines the collection, use, and protection of personal data and information belonging to users. It typically explains data handling procedures and user rights regarding privacy and data security.
+* **API:** Application Programming Interface. a set of rules and protocols that allows different software applications to communicate with each other, used to enable the integration of different software systems, allowing them to work together and share data seamlessly.
+* **A-MA-ZING HRM:** The HRM available to order as an in-app purchase for users, made by ACME.
+* **Geofence:** A virtual boundary or geographic area defined by GPS or RFID technology. Geofences are used for location-based services, such as triggering notifications or actions when a device enters or exits the defined area.
+* **Heart Rate Monitor (HRM):** A device designed to measure and track an individual's heart rate, often used in health and fitness applications to monitor physical activity and provide insights into cardiac health.
+* **McMaster:** A University located in Hamilton, Ontario selected as a pilot partner, where _Hammer Corp_ will launch AMCE RUN under the name MacRun as a pilot application.
+* **Privacy Policy:** A formal document or statement that outlines the collection, use, and protection of personal data and information belonging to users. It typically explains data handling procedures and user rights regarding privacy and data security.
+
+==== (E.1.2) Domain Model
+
+.Domain Model for {project-title}
+image::models/domain_model.png[scale=60%,align="center"]
