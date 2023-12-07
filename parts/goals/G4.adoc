@@ -7,22 +7,22 @@ endif::[]
 
 The following high level functional requirements for the application can be defined:
 
-- *Syncing the users' HRMs.* Users should be able to sync the data collected from their HRMs to the app. This should include a builtin feature to display the highlights of their run, including but not limited to the duration and distance they ran.
+- *Syncing the users' HRMs.* Users should be able to sync the data collected from their HRMs to the app. This should include a built-in feature to display the highlights of their run, including but not limited to the duration and distance they ran.
 
 - *Nearby trail recommendations.* The app must be able to take in the user's location if they wish to allow that feature, and then recommend which nearby trails to visit. This would also show the distance of those trails from them using geospatial tools.
 
 - *Community platform.* The app must allow runners to connect with their friends and plan to visit trails together. This will elevate the user experience and allow users to coordinate and commit to runs by using the platform.
 
-- *24/7 trail information.* The app must list any information concerning the trails at all times, even when the trails are indicate to be closed overnight. This will allow users to research and plan ahead. 
+- *24/7 trail information.* The app must list any information concerning the trails at all times, even when the trails are indicated to be closed overnight. This will allow users to research and plan ahead. 
 
 - *Device Compatibility.* To cater to as many members of the community, the app will be made accessible across various operating systems and environments (Apple, Android, web browser). Tracking feautures and game modes will be limited to personal mobile devices, while run scheduling will be available on browsers.
 
-The two most important functional requirements would be the 24/7 trail information and trail recommendations. Failing to have a 24/7 trail information feature within the app would deter runners from using the app if their schedule preferences were unmet. This would cause the app to be inconvenient to use and would divert users to other available facilities. This is a critical requirement to ensure that people are motivated to download and actively use the platform. Moreover, providing recommendations of nearby trails is the key factor that would promote downloads of the app and effective usage. By listing the nearby trails, the app would profit from active user traffic. This convenience sets the app for success in the industry. On the other hand, the remaining functional requirements are also very important, however, they compliment the app rather than provide it the most business value.
+The two most important functional requirements would be the 24/7 trail information and trail recommendations. Failing to have a 24/7 trail information feature within the app would deter runners from using the app if their schedule preferences were unmet. This would cause the app to be inconvenient and would divert users to other available facilities. This is a critical requirement to ensure that people are motivated to download and actively use the platform. Moreover, providing recommendations of nearby trails is the key factor that would promote downloads of the app and effective usage. By listing nearby trails, the app would profit from active user traffic. This convenience sets the app for success in the industry. The remaining functional requirements are also very important, however, they compliment the app rather than provide it the most business value.
 
 The following high level non-functional requirements for the application can be defined:
 
 - *Compliance with City of Hamilton by-laws*
-- *Learnable interfece, intuitive for a diverse user base*
+- *Learnable interface, intuitive for a diverse user base*
 
-These requirements play a pivotal role in enhancing the deployment of the application.  Compliance with city bylaws ensures the app meets local regulations, preventing any violations. The emphasis on a learnable and useable interface is crucial for attracting new users of diverse technological backgrounds. Thus, accommodating a diverse user base, which aligns with the app's goal of increasing accessibility to personalized workouts. It also prioritizes the needs of the community that the app will cater to. Such requirements ensure that the app is safely deployed and offers the necessary services to its users. It optimizes the business value by creating an intuitive platform for its users that exceeds what is available in the current market. 
+These requirements play a pivotal role in enhancing the deployment of the application. Compliance with city by-laws ensures the app meets local regulations, preventing any potential violations. The emphasis on a learnable and useable interface is crucial for attracting new users of diverse technological backgrounds. Thus, accommodating a diverse user base, which aligns with the app's goal of increasing accessibility to fitness programming. It also prioritizes the needs of the community that the app will cater to. Such requirements ensure that the app is safely deployed and offers the necessary services to its users. It optimizes the business value by creating an intuitive platform for its users that exceeds what is available in the current market. 
 
