@@ -1,3 +1,5 @@
 include::./security_by_obscurity.adoc[]
 
 include::./Security_by_property.adoc[]
+
+include::./Implementing_feedback.adoc[]
