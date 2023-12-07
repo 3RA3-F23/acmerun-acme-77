@@ -48,7 +48,7 @@ Priority Level is assigned based on MoSCoW classificiation:
 | <<F233>> | Exercise Routines | High | Crtitical function of the app as it is the main purpose of the application and provides users with exercise routines.
 | <<F234>> | Trail Visualization| High | Critical function of the app for users to navigate trails to workout, enhancing user experience and safety.
 | <<NF231>> | Performance & Responsiveness | Medium | Critical function of the app to interact with options user chose.
-| <<NF232>> | Compliance and Regulations | High | Critical for app to be available for use on the app store. Makes sure the app is 
+| <<NF232>> | Compliance and Regulations | High | Critical for app to be available for use on the app store. Ensures the app is compliant with the necessary regulations.
 
 |====
 
