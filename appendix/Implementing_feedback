@@ -1,0 +1,8 @@
+[appendix]
+== Implementing Feedback received
+
+* Feedback from Window of opportunity 1*
+
+To improve the requirements under the goals part, we modified our descriptions of the current situation, functionality overview and stakeholder tables. Previously the current situation described what the app did, so we improved it to detail why it was needed and how it addresses the current environment of the fitness industry. We also specified that the stakeholders should be distinguished between experienced and beginner runners, as well as people who simply want an affordable alternative to the gym. By doing so we were able to refine the value provided by the app to a larger audience. We visualized this with a table that wasn't included earlier. Finally, we reconsidered the key functional requirements that bring the essential value to the app, as well as redefined non-functional requirements as they were describing technical expectations previously rather than properties of the app. Reformatted the invariants section in the environment section, as well as replaced a condition with an accurate invariant of the options offered to a player based on their statistics and performance. Finally, in the project section we improved upon the risks associated with HRM integration under the risk and mitigation analysis. As well as, indicated the personas being interviewed and asked more accurate questions to the relevant stakeholders under the requirements process and report.
+
+* Feedback from Window of opportunity 2*
