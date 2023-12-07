@@ -25,7 +25,7 @@ The final API would be the payment gateway. This interface is used to allow user
 - The API shall offer users with different payment methods, which users can select to pay with.
 - The API shall offer a secure method to transfer money from users payment to designated system bank account.
 
-.API's used by ACME RUN
+.APIs used by ACME RUN
 image::models/external_API.png[scale=50%,align="center"]
 
 ==== (S.3.2) **Wireframes**:
@@ -34,14 +34,14 @@ Here we focus on the 2 most used sections of the ACME RUN app.
 
 ===== (S.3.2.1) User Profile Manager (Runner)
 
-The runner adds his personal information and selects his fitness goals. Which he can then save and is used by the system to determine appropriate workout plans for the runner.
+The runner can fill in personal information and select fitness goals. Which can then be saved and used by the system to determine appropriate workout plans for the runner.
 
 .Runner: Runner Personal Information Screen
 image::models/wireframeprofile.png[scale=70%,align="center"]
 
 ===== (S.3.2.2) Game Play (Runner)
 
-The runner can start a running session which he then will be brought to the gameplay where he can monitor his progress during the run, view monsters that approach him along the way, and be prompted with physical excercies.
+The runner can start a running session which then will be brought to the gameplay where they can monitor their progress during the run, view monsters that approach along the way, and be prompted with physical excercies.
 
 .Runner: Runner during a running cycle game play
 image::models/wireframe2.png[scale=70%,align="center"]
