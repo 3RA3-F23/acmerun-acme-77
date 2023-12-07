@@ -12,8 +12,8 @@ endif::[]
 
 | Client| HammerCorp | <<Sandra>> | Direct
 | Local Partner| McMaster University | <<David>> | Direct
-.2+| Athletes | Experienced Athletes | <<Jimmy>> | Direct
-| Beginner Athletes | <<Matt>> | Direct 
+.2+| Runners | Experienced Runners | <<Jimmy>> | Direct
+| Beginner Runners | <<Matt>> | Direct 
 | Local Authorities | City Planners | <<Sam>> | Direct
 3+| Personal Trainers | Indirect
 3+| Local Shops | Indirect
@@ -28,12 +28,12 @@ The app is being developed to meet the requests of the client, HammerCorp. As th
 
 Sandra is a 40 year old manager at HammerCorp and is familiar with the technology of existing fitness apps. She has been hearing about the rising costs of gym memberships and want to be part of an affordable program that increases access to fitness facilities. She is interested in providing the citizens of Hamilton with access to such opportunities at a low cost.
 
-- Athletes in Hamilton
+- Runners in Hamilton
 Runners are the primary users of this product. They will be using the app to find nearby trails and would use it as an affordable tool to stay active.
 
-Jimmy(Experienced Athlete) is a 22 year old graduate from McMaster. He enjoys attending the gym, but has found it difficult to pay the monthly membership cost. He is also an avid runner, and spends lots of time on the treadmills. Having an app that shows him nearby trails within his community would allow him to meet his budget goals while staying active.
+Jimmy(Experienced Runner) is a 22 year old graduate from McMaster. He enjoys attending the gym, but has found it difficult to pay the monthly membership cost. He is also an avid runner, and spends lots of time on the treadmills. Having an app that shows him nearby trails within his community would allow him to meet his budget goals while staying active.
 
-Matt(Beginner Athlete) is a 52 year old from Hamilton. He is not very active, and wants to try something new to take care of his health. Attending a gym is not his preference as it is too costly, an app like ACME RUN, will encourage him to start in an affordable manner, and with his choice of difficulty levels.
+Matt(Beginner Runner) is a 52 year old from Hamilton. He is not very active, and wants to try something new to take care of his health. Attending a gym is not his preference as it is too costly, an app like ACME RUN, will encourage him to start in an affordable manner, and with his choice of difficulty levels.
 
 - McMaster University as the Local Partner
 McMaster will act as the pilot partner, which will enable the app to cater to the available trails near campus. McMaster will need to know estimates of how many runners to anticipate, and the trails that will be allocated. 
