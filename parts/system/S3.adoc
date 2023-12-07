@@ -26,7 +26,7 @@ The final API would be the payment gateway. This interface is used to allow user
 - The API shall offer a secure method to transfer money from users payment to designated system bank account.
 
 .API's used by ACME RUN
-image::models/external_API.png[scale=70%,align="center"]
+image::models/external_API.png[scale=50%,align="center"]
 
 ==== (S.3.2) **Wireframes**:
 
