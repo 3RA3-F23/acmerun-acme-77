@@ -5,9 +5,9 @@ ifdef::env-draft[]
 TIP: _Obligations and limits imposed on the project and system by the environment. This chapter defines non-negotiable restrictions coming from the environment (business rules, physical laws, engineering decisions), which the development will have to take into account._  <<BM22>>
 endif::[]
 
-* **Mobile Support:** The application must operate on major mobile devices and operating systems being supported by mobile companies i.e. iOS and Android smartphones
+* **Mobile Support:** The application must operate on major mobile devices and operating systems being supported by mobile companies i.e. iOS and Android smartphones.
 
-* **App Store Policy:** The application must comply with policies and guidelines set by mobile app stores i.e. Apple App Store, Google Play Store to ensure availability and accessibility 
+* **App Store Policy:** The application must comply with policies and guidelines set by mobile app stores i.e. Apple App Store, Google Play Store to ensure availability and accessibility. 
 
-* **Interaction with HRM:** The application must support the use of external HRMs, as well as no HRM being used, accommodating to users with or without an HRM, ensuring accessibility and experience for all users.
+* **Interaction with HRM:** The application must support the use of external HRMs, as well as no HRM being used, ensuring accessibility and experience for all users.
 
