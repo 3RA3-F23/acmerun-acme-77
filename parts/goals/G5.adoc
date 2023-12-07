@@ -2,7 +2,7 @@
 === (G.5) High-level usage scenarios
 
 ifdef::env-draft[]
-TIP: _Fundamental usage paths through the system. It presents the main scenarios (use cases) that the system should cover. The scenarios chosen for appearing here, in the Goals book, should only be the **main usage patterns**, without details such as special and erroneous cases; they should be stated in user terms only, independently of the system's structure. Detailed usage scenarios, taking into account system details and special cases, will appear in the System book (<<s4>>)._  <<BM22>>
+TIP: _Fundamental usage paths through the system. It presents the main scenarios (use cases) that the system should cover. The scenarios chosen for appearing here, in the Goals book, should only be the **main usage patterns**, without details such as special and erroneous cases; they should be stated in runner terms only, independently of the system's structure. Detailed usage scenarios, taking into account system details and special cases, will appear in the System book (<<s4>>)._  <<BM22>>
 endif::[]
 
 .High Level use cases diagram
@@ -12,42 +12,42 @@ The use case diagram above highlights how we anticipate our direct stakeholders 
 
 * [[uc1,UC1]] *UC1: Download app and setup profile.* 
 
-    1. The user downloads the app from the app store and signs up via email
-    2. The user is prompted with adding their personal information such as weight, age and their fitness goals
-    3. The user is prompted to select their geographical zone where they will go on their runs 
-    4. If the user owns a heart rate monitor, they will be asked to set it up and connect it to the app for collection of heart rate data during their runs
-    5. The system will run through the provided information and provide the user with personalized training programs 
+    1. The runner downloads the app from the app store and signs up via email
+    2. The runner is prompted with adding their personal information such as weight, age and their fitness goals
+    3. The runner is prompted to select their geographical zone where they will go on their runs 
+    4. If the runner owns a heart rate monitor, they will be asked to set it up and connect it to the app for collection of heart rate data during their runs
+    5. The system will run through the provided information and provide the runner with personalized training programs 
 
 * [[uc2,UC2]] *UC2: Start running session.* 
 
-    1. The user decides to start a run and connects their HRM if available
-    2. The user is prompted to chose between nearby trails in their geographical zones
-    3. The user selects a trail they wish to run on and their game mode
-    4. If the user selects the hardcore game mode, taking shelter against enemies will not be an option
+    1. The runner decides to start a run and connects their HRM if available
+    2. The runner is prompted to chose between nearby trails in their geographical zones
+    3. The runner selects a trail they wish to run on and their game mode
+    4. If the runner selects the hardcore game mode, taking shelter against enemies will not be an option
     5. During the run the system collects data such as heart rate
-    6. The system adapts the users training plan based on factors such their decisions against enemies and heart rate data
+    6. The system adapts the runners training plan based on factors such their decisions against enemies and heart rate data
 
 * [[uc3,UC3]] *UC3: Confronting virtual enemies.* 
 
-    1. During a running session the system generates virtual enemies that confront the user 
-    2. The system prompts the user with options for confronting the enemy: sheltering, escaping, fight back 
-    3. If the user choses to fight back the system will generate a set of exercises for the user to complete
-    4. If the user choses to escape the system will determine a speed the user must maintain based on the users collected data
-    5. If the user is not in hardcore mode and chooses to take shelter the system will show nearby zones where the user can rest 
+    1. During a running session the system generates virtual enemies that confront the runner 
+    2. The system prompts the runner with options for confronting the enemy: sheltering, escaping, fight back 
+    3. If the runner choses to fight back the system will generate a set of exercises for the runner to complete
+    4. If the runner choses to escape the system will determine a speed the runner must maintain based on the runners collected data
+    5. If the runner is not in hardcore mode and chooses to take shelter the system will show nearby zones where the runner can rest 
 
 * [[uc4,UC4]] *UC4: Update geographical zone or trails.* 
 
-    1. Staff or admin team open the app through an admin portal
-    2. Staff or admin team accesses the database of predefined geographical zones and trails
-    3. Staff or admin team collaborate with local authroties and partners to and geographical zone and add new trails (zones and trails can also be reduced depending on different factors)
-    4. Staff or admin team updates database of geographical zones and trails to include the new ones 
-    5. The system prompts the team to finalize changes and push the new update to users phones.
+    1. City planner and admin team open the app through an admin portal
+    2. City planner andadmin team accesses the database of predefined geographical zones and trails
+    3. City planner and admin team collaborate with local authroties and partners to and geographical zone and add new trails (zones and trails can also be reduced depending on different factors)
+    4. City planner and admin team updates database of geographical zones and trails to include the new ones 
+    5. The system prompts the team to finalize changes and push the new update to runners phones.
 
 * [[uc5,UC5]] *UC5: Check badges and fitness achievements.* 
 
-    1. The user navigates to their profile where they can view their badges and challenge progession
-    2. Featured badges and challenges are displayed to the user for ongoing events and global challenges
-    3. The user can view all challenges to be completed and all badges that can be acquired
-    4. When the user completes a challenge they are awarded with a virtual badge which is displayed on their profile 
+    1. The runner navigates to their profile where they can view their badges and challenge progession
+    2. Featured badges and challenges are displayed to the runner for ongoing events and global challenges
+    3. The runner can view all challenges to be completed and all badges that can be acquired
+    4. When the runner completes a challenge they are awarded with a virtual badge which is displayed on their profile 
 
 
