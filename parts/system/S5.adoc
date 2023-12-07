@@ -60,7 +60,7 @@ Priority Level is assigned based on MoSCoW classificiation:
 | <<F241>> | Badges and Challenges Progression | Medium | An important feature that the app should have to increase user engagement and motivation. Allows users to track their progress and strive to earn more, but the app can function without it.
 | <<F242>> | Update Challenges and Badges | Medium | An important feature to keep the app fresh and engaging and retain users, but the app can function without it.
 | <<F243>> | New Challenge Notification | Low | Nice to have to motivate users to use the app and keep them informed, but does not affect functionality of the app.
-| <<NF241>> | Push Notifications | Low/Medium | A good feature to have to remind users to use the app and keep engagement, but does not affect functionality.
+| <<NF241>> | Push Notifications | Low | A good feature to have to remind users to use the app and keep engagement, but does not affect functionality.
 | <<NF242>> | Badge Sprites | Low | Nice to have to motivate users, make it appealing and fun, but does not affect functionality of the app or users' fitness goals.
 
 |====
