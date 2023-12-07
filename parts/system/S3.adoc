@@ -5,22 +5,43 @@ ifdef::env-draft[]
 TIP: _How the system makes the functionality of <<s2>> available to the rest of the world, particularly user interfaces and program interfaces (APIs). It specifies how that functionality will be made available to the rest of the world, including people (users) and other systems. These are interfaces provided by the system to the outside; the other way around, interfaces from other systems, which the system may use, are specified in <<e2>>._  <<BM22>>
 endif::[]
 
-===== Functional Requirements
+==== (S.3.1) APIs
 
-. (S.3.1) **APIs**:
+The ACME RUN system uses several APIs that are incorporated to facilitate interaction with eternal systems. One of the APIs is the 'User Fitness Information' API, which integrates with third-party fitness trackers that users may wear such as HRMs.
 
-For the app, there are several APIs that are incorporated to facilitate interaction with eternal systems. One of the APIs is the 'User Fitness Information' API, which integrates with third-party fitness trackers that users may wear such as HRMs. This is responsible for providing the adequate functionalities for retrieving and updating user fitness data.
+- The interface offers two key operations: retrieve fitness data (eg. from HRM monitor) and upload data to user profile.
+- The API shall collect accurate data from user fitness trackers.
+- The API shall upload data to users profile.
 
-. The interface offers two key operations: retrieval of the data and updating the user's fitness goals.
-. It takes in two arguments for both: the user ID and an authentication token to ensure security is maintained.
-. The 'getFitnessData' operation returns the user's fitness data to the record, including their age, run history, and personalized programs.
-. The 'updateGoal' operation allows for the modification of the user's goals, such as their running routines or preffered distances.
+The second API would be the 'Geolocation' API.
 
-The second  API would be the 'Geolocation' API which would be tracking the user's geographical location during their runs. It would enable feautures that map the running route, measure distances, and provide real-time updates that are relevant to their location. 
+- The interface offers two key operations: recording/viewing the users location and providing the system a map interface. The map interface allows the system to define geographical boundaries and offer a visual representation within the game engine for users to track their progress during their runs.
+- The API shall provide real time geolocation of the local areas.
+- The API shall provide location services to determine if users are within a given boundary.
 
-. The interface offers two key operations: recording the location of the user's runs and updating the user's run details.
-. The getCurrentLocation operation retrieves the current geolocation of a specific user. It requires the user ID and an authentication token for security. The response, GeolocationResponse, may include latitude, longitude, and a timestamp.
-. The updateLocation operation allows users to update their geolocation. It requires the user ID, and new coordinates (latitude and longitude). 
+The final API would be the payment gateway. This interface is used to allow users to make in app purchases within the app; specifically to buy HRMs if needed.
 
+- The interface has a single purpose to provide users with a method to make secure payments within the app.
+- The API shall offer users with different payment methods, which users can select to pay with.
+- The API shall offer a secure method to transfer money from users payment to designated system bank account.
 
-. (S.3.2) **Wireframes**:
+.API's used by ACME RUN
+image::models/external_API.png[scale=70%,align="center"]
+
+==== (S.3.2) **Wireframes**:
+
+Here we focus on the 2 most used sections of the ACME RUN app.
+
+===== (S.3.2.1) User Profile Manager (Runner)
+
+The runner adds his personal information and selects his fitness goals. Which he can then save and is used by the system to determine appropriate workout plans for the runner.
+
+.Runner: Runner Personal Information Screen
+image::models/wireframeprofile.png[scale=70%,align="center"]
+
+===== (S.3.2.2) Game Play (Runner)
+
+The runner can start a running session which he then will be brought to the gameplay where he can monitor his progress during the run, view monsters that approach him along the way, and be prompted with physical excercies.
+
+.Runner: Runner during a running cycle game play
+image::models/wireframe2.png[scale=70%,align="center"]

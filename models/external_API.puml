@@ -1,0 +1,54 @@
+@startuml
+interface UserFitnessInformation{
+    + fitnessData: Data
+
+}
+
+UserFitnessInformation.> UploadData
+
+class UploadData{
+    + data: Data
+}
+
+UploadData--> "*" UserProfile
+
+UserFitnessInformation <-- CollectData 
+
+class UserProfile<<DomainModel>>
+
+class CollectData{
+    + data: Data
+}
+
+class UserFitnessTracker<<DomainModel>>
+
+CollectData <-- UserFitnessTracker
+
+interface Geolocation{
+    + location Services(Latitude, Longitude): Location
+    + Map Interface: Map
+}
+
+class map
+class location
+class GameEngine<<DomainModel>>
+
+Geolocation --> map
+map -> GameEngine
+Geolocation -> location
+location --> GameEngine
+
+interface PaymentGateway{
+    + PaymentGate: GateWay
+}
+
+class PaymentMethod{
+    + Payment Type
+}
+class secureTunnel<<Security>>
+
+PaymentGateway -> secureTunnel
+PaymentGateway-- PaymentMethod
+PaymentGateway -- UserProfile
+
+@enduml
