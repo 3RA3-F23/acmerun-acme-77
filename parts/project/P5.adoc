@@ -6,22 +6,22 @@ TIP: _External systems, hardware and software, expected to be necessary for buil
 endif::[]
 
 - Compliance with external API for GPS/Map Integration:
--- This is critical for providing the main functionalities of the app, to provide nearby trails and tracking features. This will allow for real-time location tracking for users along trails, displaying shelters and safe-zones in game mode.
+
+This is critical for providing the main functionalities of the app, to provide nearby trails and tracking features. This will allow for real-time location tracking for users along trails, displaying shelters and safe-zones in game mode.
 
 Impact on security:
-
 Security concerns are relevant to the location tracking of a user, as it is critical to ensure that the API is not compromised and avoid potential risks of unauthorized access to user location data.
 
 - Compliance with external API for HRM Integration:
--- Ensuring compatibility with different HRM devices for seamless integration and increased accessibility. Records user's activity to understand the rigour and intensity of their runs. 
+
+Ensuring compatibility with different HRM devices for seamless integration and increased accessibility. Records users' activity to understand the rigour and intensity of their runs. 
 
 Impact on security:
-
 User's health data that is collected from the HRM devices must be handled carefully through secure data measures. 
 
 - Compliance with external API for Payment Gateway:
--- This is critical to enable payment options and acceptance from users when they choose to make in-app purchases. This element must integrate seamlessly with the billing of various app stores.
+
+This is critical to enable payment options and acceptance from users when they choose to make in-app purchases. This element must integrate seamlessly with the billing of various app stores.
 
 Impact on security:
-
 Financial transactions that are processed through the app must adhere to industry standards of secure payment,  encrypting such data. As such, protecting users' financial informations and meeting compliance standards is critical with the payment API.
