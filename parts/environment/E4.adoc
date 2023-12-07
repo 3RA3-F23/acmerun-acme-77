@@ -8,7 +8,7 @@ endif::[]
 
 Some assumptions made can be found below:
  
- * **Operating System Compatibility:** It is assumed that ACME Run will only support mobile operating systems that are still being supported by mobile companies and app stores i.e. Android 11 - 14.1, iOS 15 - 17.1.
+ * **Operating System Compatibility:** It is assumed that ACME Run will only support web browsers and mobile operating systems that are still being supported by mobile companies and app stores i.e. Android 11 - 14.1, iOS 15 - 17.1.
  
  * **Availability of Local Partners:** It is assumed that local partners such as McMaster University will be available to support operations of the app by allowing access to nearby trails. This includes defining shelter areas and updating safe trail use.
  
