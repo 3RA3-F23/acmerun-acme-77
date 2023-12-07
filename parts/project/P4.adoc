@@ -10,15 +10,15 @@ endif::[]
 |===
 | Iteration | Epic |  Story | Business Val. | Story Points 
 
-| #1 | 1a |  Create account using email and password	| 	| 
-| #1 | 1a |  Log in using email and password |		|
-| #1 | 1a |  Add user personal information	| 	| 
-| #1 | 1a | Add user fitness goals |  | 
-| #1 | 1a | Basic UI to connect user profile and game |  | 
-| #1 | 1b | Retrieve geographical area and details from external APIs |  | 
-| #1 | 1b | Define active running trails within geographical area |  | 
-| #1 | 1b | Select running trail within geographical area |  | 
-| #1 | 1c | Options to open profile and start a running session from main menu |  |	
-| #1 | 1c | Options to select from a set of initial workout plans |  | 
+| #1 | 1a |  Create account using email and password	| 3	| 5
+| #1 | 1a |  Log in using email and password |	3	| 5
+| #1 | 1a |  Add user personal information	| 3	| 5
+| #1 | 1a | Add user fitness goals | 3 | 4
+| #1 | 1a | Basic UI to connect user profile and game | 3 | 5
+| #1 | 1b | Retrieve geographical area and details from external APIs | 3 | 4
+| #1 | 1b | Define active running trails within geographical area | 3 | 5
+| #1 | 1b | Select running trail within geographical area | 2 | 4
+| #1 | 1c | Options to open profile and start a running session from main menu | 2 | 4
+| #1 | 1c | Options to select from a set of initial workout plans | 3 | 5
 
 |===
