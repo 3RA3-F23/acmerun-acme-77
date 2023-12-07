@@ -12,15 +12,15 @@ endif::[]
 
 . [[F212]] **Preferences/User data**: User Profile manager shall allow users to add their personal information such as age and fitness goals and also record data like previous heart rate information. (F212)
 
-. [[F213]] **Personalized Fitness Programs**: User Profile manager shall allow users to pick and chose from a selection of personalized fitness programs; created uniquely for them based on their provided information. (F213)
+. [[F213]] **Personalized Fitness Programs**: User Profile manager shall allow users to pick and choose from a selection of personalized fitness programs, which are created uniquely for them based on their provided information. (F213)
 
 . [[F214]]  **User activity history**: User Profile manager shall allow users to log their previous runs, such as running distance and duration. (F214)
 
 ===== Non-Functional Requirements
 
-. [[NF211]] **Accesssibility**: User Profile Manager shall provide users to select different languages they want the app to be in, to support the diverse community at McMaster (NF211)
+. [[NF211]] **Accesssibility**: User Profile Manager shall provide users to select different languages they want the app to be in, to support the diverse community at McMaster. (NF211)
 
-. [[NF212]] **Personal Data Privacy**: User Profile Manager shall ensure that users data is not accessible outside of the administrative management team. (NF212)
+. [[NF212]] **Personal Data Privacy**: User Profile Manager shall ensure that user data is not accessible outside of the administrative management team. (NF212)
 
 ==== (S.2.2) Geo-Fence & Trail Manager
 
@@ -70,6 +70,6 @@ endif::[]
 
 ===== Non-Functional Requirements
 
-. [[NF241]] **Push notifications**: Badge & Challenge Manager will enable notifications on a users mobile phone and only send notifications when in compliance with security settings on the users device.  (NF241)
+. [[NF241]] **Push notifications**: Badge & Challenge Manager will enable notifications on a user's mobile phone and only send notifications when in compliance with security settings on the user's device.  (NF241)
 
 . [[NF242]] **Badge sprites**: Badge & Challenge Manager will provide users with sprites when viewing different badges to motivate users into completing and earning the badges.  (NF242)
