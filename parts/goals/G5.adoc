@@ -38,10 +38,10 @@ The use case diagram above highlights how we anticipate our direct stakeholders 
 * [[uc4,UC4]] *UC4: Update geographical zone or trails.* 
 
     1. City planner and admin team open the app through an admin portal
-    2. City planner andadmin team accesses the database of predefined geographical zones and trails
-    3. City planner and admin team collaborate with local authroties and partners to and geographical zone and add new trails (zones and trails can also be reduced depending on different factors)
-    4. City planner and admin team updates database of geographical zones and trails to include the new ones 
-    5. The system prompts the team to finalize changes and push the new update to runners phones.
+    2. City planner anda dmin team access the database of predefined geographical zones and trails
+    3. City planner and admin team collaborate with local authorities and partners to determine geographical zones and add new trails (zones and trails can also be reduced depending on different factors)
+    4. City planner and admin team update database of geographical zones and trails to include the new ones 
+    5. The system prompts the team to finalize changes and push the new update to runners phones
 
 * [[uc5,UC5]] *UC5: Check badges and fitness achievements.* 
 
