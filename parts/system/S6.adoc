@@ -5,11 +5,11 @@ ifdef::env-draft[]
 TIP: _Specification of the conditions under which an implementation will be deemed satisfactory. Here, "verification" as shorthand for what is more explicitly called "Verification & Validation" (V&V), covering several levels of testing — module testing, integration testing, system testing, user acceptance testing — as well as other techniques such as static analysis and, when applicable, program proving._  <<BM22>>
 endif::[]
 
-===== Functional Requirements
+==== Functional Requirements
 
 . **Validation Approach**: The validation of functional requirements will be administered throughout development using acceptance testing. It will be utilized to express and automate feature testing using a predefined testing framework, to showcase that the functional requirements are satisfied. Prototypes will be delivered to relevant direct stakeholders throughout the early stages of the development process. Furthermore, user acceptance testing will be conducted as a key component of the release, involving the key personas to the project. (F211)
 
-===== Non-Functional Requirements
+==== Non-Functional Requirements
 
 . **Accessibility**: The User Profile manager shall undergo user testing with participants from diverse linguistic backgorunds to ensure the the language selection is effective and responsive. The system's language switching feature must be audited internally, to assess its effectiveness at providing users with a seamless experience to choose different languages. (NF211)
 
