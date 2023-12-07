@@ -119,9 +119,9 @@ This allows for continuous improvement of the chosen trails. It also caters to a
 
 **Main Success Scenario**:
 
-. Featured badges and challenges are displayed pn the user's profile for ongoing events and global challenges.
+. Featured badges and challenges are displayed on the user's profile for ongoing events and global challenges.
 . The user can view all possible challenges and badges.
-. The user can see potiential challenges, track their progress to earning certain badges and completing challenges.
+. The user can see potential challenges, track their progress to earning certain badges and completing challenges.
 . The user can find new badges and completed challenges shown on their profile.
 
 
